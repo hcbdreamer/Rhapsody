@@ -1,0 +1,343 @@
+I-Logix-RPY-Archive version 8.6.0 C++ 4020511
+{ ISubsystem 
+	- _id = GUID da41596f-3c37-4852-9748-eb5642722dbe;
+	- _myState = 8192;
+	- _properties = { IPropertyContainer 
+		- Subjects = { IRPYRawContainer 
+			- size = 2;
+			- value = 
+			{ IPropertySubject 
+				- _Name = "CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Class";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "UseAsExternal";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Package";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "UseAsExternal";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+			{ IPropertySubject 
+				- _Name = "CPP_CG";
+				- Metaclasses = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertyMetaclass 
+						- _Name = "Package";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "DefineNameSpace";
+								- _Value = "True";
+								- _Type = Bool;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	- _name = "Ui";
+	- weakCGTime = 6.15.2012::18:37:0;
+	- strongCGTime = 6.15.2012::18:24:17;
+	- _defaultComposite = GUID 59bc0867-43fe-4c12-8d19-d514303b7798;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 59bc0867-43fe-4c12-8d19-d514303b7798;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 646d4e8f-ba5b-47a6-a188-35e5dbcca6a3;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "FileName";
+										- _Value = "ui_qtcountdown";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "In";
+										- _Value = "$type*";
+										- _Type = String;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Dependency";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "IncludeStyle";
+										- _Value = "Quotes";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Default,Quotes,AngleBrackets";
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "MyQtCountdown";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 24f9fcb6-5ce4-451a-875c-77738591958a;
+					- _myState = 2048;
+					- _name = "qtcountdown_ui";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "trace";
+							- _id = GUID eba444ab-8581-4b96-9d6b-f99c142d15a9;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IEmbededFile";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "qtcountdown.ui";
+						- _id = GUID c312949a-6e8f-4876-ba23-f043a6310fd5;
+					}
+				}
+			}
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 45204de4-c8c3-4425-940b-d892a3125d5e;
+			}
+			- _lastID = 1;
+			- weakCGTime = 6.15.2012::18:37:0;
+			- strongCGTime = 6.15.2012::18:24:17;
+			- Operations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 21cc2088-bffd-493f-ba0e-b11dc0e033de;
+					- _myState = 8192;
+					- _name = "setupUi";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID cc90dd62-41c3-4378-9600-e5e96cfe969e;
+							- _name = "MyQtCountdown";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+								- _subsystem = "QTProfile::Qt::QtGui";
+								- _class = "";
+								- _name = "QWidget";
+								- _id = GUID ca45554b-c0d4-4f9e-b5cf-b9fcca6c5739;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+				{ IPrimitiveOperation 
+					- _id = GUID e1316b3c-8edf-45ec-a133-cc5c2019bc4b;
+					- _myState = 8192;
+					- _name = "retranslateUi";
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID ca105df5-30f1-4f56-bd13-bb14d215a72c;
+							- _name = "MyQtCountdown";
+							- _typeOf = { IHandle 
+								- _m2Class = "IClass";
+								- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+								- _subsystem = "QTProfile::Qt::QtGui";
+								- _class = "";
+								- _name = "QWidget";
+								- _id = GUID ca45554b-c0d4-4f9e-b5cf-b9fcca6c5739;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Attrs = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAttribute 
+					- _id = GUID 06f63697-ee66-47a0-9aeb-83024ce90b81;
+					- _name = "startButton";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtGui";
+						- _class = "";
+						- _name = "QPushButton";
+						- _id = GUID 7403c05b-3eae-4315-92a8-5fd0820c7612;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 61382e5d-fc5c-4206-848b-57b4aa308f7b;
+					- _name = "resetButton";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtGui";
+						- _class = "";
+						- _name = "QPushButton";
+						- _id = GUID 7403c05b-3eae-4315-92a8-5fd0820c7612;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+				{ IAttribute 
+					- _id = GUID 3978e482-8397-4ead-9bc8-4623d4700c89;
+					- _name = "lcdNumber";
+					- _typeOf = { IHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtGui";
+						- _class = "";
+						- _name = "QLCDNumber";
+						- _id = GUID 5c496a13-fcd9-408b-9bb3-c7ac8007f129;
+					}
+					- _isOrdered = 0;
+					- _protection = iPublic;
+					- _static = 0;
+					- _isReference = 0;
+					- _isConstant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 398fd258-f4c2-495f-be2f-2ec2deff0f1d;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtGui";
+						- _class = "";
+						- _name = "QWidget";
+						- _id = GUID ca45554b-c0d4-4f9e-b5cf-b9fcca6c5739;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

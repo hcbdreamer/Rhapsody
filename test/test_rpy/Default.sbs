@@ -1,0 +1,92 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ ISubsystem 
+	- _id = GUID bd5461e6-11ca-4794-a6cf-54deedd9281f;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 1.28.2018::8:19:28;
+	- _lastID = 2;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID 4d68fa2c-46af-419c-af47-f8a246c0767d;
+			- _myState = 8192;
+			- _name = "Executable";
+			- _modifiedTimeWeak = 1.28.2018::8:19:28;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Configuration"; 
+			}
+		}
+	}
+	- weakCGTime = 1.28.2018::8:19:28;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID b1f0f96d-1e5e-452b-8eec-462c518ea31a;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID b1f0f96d-1e5e-452b-8eec-462c518ea31a;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.17.2018::13:7:2;
+			- weakCGTime = 1.17.2018::13:7:2;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID c87c4956-845d-41b9-a09e-fd3bf8dca001;
+			- _myState = 8192;
+			- _name = "Hello";
+			- _modifiedTimeWeak = 1.17.2018::13:8:11;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID cbab0c71-cf70-44c1-bf9c-61a25e3c42f4;
+			}
+			- weakCGTime = 1.17.2018::13:8:11;
+			- strongCGTime = 1.17.2018::13:7:30;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID d88eb517-9320-436a-9a5e-9fd6697647aa;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.17.2018::13:8:11;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "std::cout<<\"Hello\"<<std::endl;";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -1,0 +1,21 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- filesTable = { IRPYRawContainer 
+	- size = 14;
+	- value = "SignalSlotExample.rpy" ""
+	"SignalSlotExample_rpy\\CGCompatibilityPre803Cpp.sbs" "CGCompatibilityPre803Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre804Cpp.sbs" "CGCompatibilityPre804Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre805Cpp.sbs" "CGCompatibilityPre805Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre806Cpp.sbs" "CGCompatibilityPre806Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre80Cpp.sbs" "CGCompatibilityPre80Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre812Cpp.sbs" "CGCompatibilityPre812Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre813Cpp.sbs" "CGCompatibilityPre813Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre814Cpp.sbs" "CGCompatibilityPre814Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre815Cpp.sbs" "CGCompatibilityPre815Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre81Cpp.sbs" "CGCompatibilityPre81Cpp"
+	"SignalSlotExample_rpy\\CGCompatibilityPre82Cpp.sbs" "CGCompatibilityPre82Cpp"
+	"SignalSlotExample_rpy\\Default.sbs" "Default"
+	"SignalSlotExample_rpy\\SSExample.cmp" "SSExample"
+	
+}
+

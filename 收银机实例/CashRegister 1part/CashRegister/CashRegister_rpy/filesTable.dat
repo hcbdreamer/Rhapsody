@@ -1,0 +1,15 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- filesTable = { IRPYRawContainer 
+	- size = 8;
+	- value = "CashRegister.rpy" ""
+	"CashRegister_rpy\\AnalysisPkg.sbs" "AnalysisPkg"
+	"CashRegister_rpy\\CashRegisterPkg.sbs" "CashRegisterPkg"
+	"CashRegister_rpy\\HardwarePkg.sbs" "HardwarePkg"
+	"CashRegister_rpy\\InterfacePkg.sbs" "InterfacePkg"
+	"CashRegister_rpy\\RequirementsPkg.sbs" "RequirementsPkg"
+	"CashRegister_rpy\\TesterPkg.sbs" "HardwarePkg::TesterPkg"
+	"CashRegister_rpy\\TesterPrototype.cmp" "TesterPrototype"
+	
+}
+

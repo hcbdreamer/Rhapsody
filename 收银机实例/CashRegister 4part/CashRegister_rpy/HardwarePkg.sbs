@@ -1,0 +1,65 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ ISubsystem 
+	- _id = GUID a3a2510e-a4f6-4a76-aaa2-5d8551b05ce3;
+	- _myState = 8192;
+	- _name = "HardwarePkg";
+	- Dependencies = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IDependency 
+			- _id = GUID f9f00779-08eb-4d72-966b-4859fa36dbf2;
+			- _myState = 2048;
+			- _name = "InterfacePkg";
+			- _modifiedTimeWeak = 11.22.2017::14:3:57;
+			- _dependsOn = { INObjectHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "InterfacePkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "InterfacePkg";
+				- _id = GUID 2006e191-bb64-40f3-a723-2bcd09dd0012;
+			}
+		}
+	}
+	- _modifiedTimeWeak = 11.23.2017::11:48:12;
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Domains Overview";
+		- _id = GUID 31dc543a-0236-445d-927f-a67f617179b0;
+	}
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ISubsystem 
+			- fileName = "TesterPkg";
+			- _id = GUID 14c82a3b-58b8-4ea4-af7b-7f071a36acdb;
+		}
+	}
+	- weakCGTime = 11.23.2017::11:48:12;
+	- strongCGTime = 11.22.2017::14:3:57;
+	- _defaultComposite = GUID 8d38277d-bb5c-48b8-987c-f284e49397e2;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 8d38277d-bb5c-48b8-987c-f284e49397e2;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 11.23.2017::11:48:12;
+			- weakCGTime = 11.23.2017::11:48:12;
+			- strongCGTime = 11.22.2017::14:3:57;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

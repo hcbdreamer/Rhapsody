@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "StopWatch1.rpy" ""
+	"StopWatch1_rpy\\Default.sbs" "Default"
+	"StopWatch1_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	
+}
+

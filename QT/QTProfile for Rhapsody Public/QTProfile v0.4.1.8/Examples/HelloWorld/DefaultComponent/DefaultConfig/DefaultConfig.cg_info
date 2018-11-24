@@ -1,0 +1,35 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 3;
+	- value = "DefaultComponent\\DefaultConfig\\Hello.cpp" 1.28.2018::13:52:42
+	"DefaultComponent\\DefaultConfig\\Hello.h" 1.28.2018::13:52:42
+	"DefaultComponent\\DefaultConfig\\MainDefaultComponent.cpp" 1.28.2018::14:20:52
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID c7c6e6f8-95f9-4b45-982f-2dd0ebb36aec" "GUID f6bff4b1-cdf1-416d-9b85-f640303cc790"
+	"GUID f582727c-2477-431a-9fe2-590edeb1bb48" "GUID f6bff4b1-cdf1-416d-9b85-f640303cc790"
+	
+}
+- size = 2;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 9402cd25-54bb-45e8-8653-09673bbd6c14;
+}
+- genTime = 1.28.2018::14:21:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Hello";
+	- _id = GUID 2da92eb4-5341-4669-a902-0821c487732d;
+}
+- genTime = 1.28.2018::13:52:42;
+

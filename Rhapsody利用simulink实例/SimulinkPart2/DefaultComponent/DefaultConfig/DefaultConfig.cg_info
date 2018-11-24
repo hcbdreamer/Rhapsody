@@ -1,0 +1,111 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 24;
+	- value = "DefaultComponent\\DefaultConfig\\Builder.cpp" 12.26.2017::13:42:18
+	"DefaultComponent\\DefaultConfig\\Builder.h" 12.26.2017::13:42:18
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 12.26.2017::13:34:46
+	"DefaultComponent\\DefaultConfig\\Default.h" 12.26.2017::13:34:46
+	"DefaultComponent\\DefaultConfig\\FlowPortInterfaces.cpp" 3.22.2018::2:40:50
+	"DefaultComponent\\DefaultConfig\\FlowPortInterfaces.h" 3.22.2018::2:40:50
+	"DefaultComponent\\DefaultConfig\\Magic.cpp" 12.26.2017::13:39:37
+	"DefaultComponent\\DefaultConfig\\Magic.h" 12.26.2017::13:39:37
+	"DefaultComponent\\DefaultConfig\\Sink.cpp" 12.26.2017::13:52:4
+	"DefaultComponent\\DefaultConfig\\Sink.h" 12.26.2017::13:34:42
+	"DefaultComponent\\DefaultConfig\\Source.cpp" 12.26.2017::13:34:33
+	"DefaultComponent\\DefaultConfig\\Source.h" 12.26.2017::13:34:33
+	"DefaultComponent\\DefaultConfig\\Source_copy.cpp" 12.26.2017::13:30:38
+	"DefaultComponent\\DefaultConfig\\Source_copy.h" 12.26.2017::13:30:38
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 12.26.2017::13:23:57
+	"DefaultComponent\\DefaultConfig\\class_0.h" 12.26.2017::13:23:57
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 12.26.2017::13:28:55
+	"DefaultComponent\\DefaultConfig\\class_1.h" 12.26.2017::13:28:55
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 12.26.2017::13:32:9
+	"DefaultComponent\\DefaultConfig\\class_2.h" 12.26.2017::13:32:9
+	"DefaultComponent\\DefaultConfig\\doubleFlowInterface.cpp" 12.26.2017::13:28:5
+	"DefaultComponent\\DefaultConfig\\doubleFlowInterface.h" 12.26.2017::13:34:46
+	"DefaultComponent\\DefaultConfig\\intFlowInterface.cpp" 12.26.2017::13:30:26
+	"DefaultComponent\\DefaultConfig\\intFlowInterface.h" 12.26.2017::13:34:33
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 042961ba-4a93-4941-96cc-e37375986020" "GUID 344ac80d-3d77-4196-b645-2a2bf70c37a6"
+	"GUID 04941a58-c62b-4e6d-b225-4104cb417b8f" "GUID 344ac80d-3d77-4196-b645-2a2bf70c37a6"
+	"GUID e951f65e-80c5-471a-a991-8a1a54dce885" "GUID 344ac80d-3d77-4196-b645-2a2bf70c37a6"
+	
+}
+- size = 8;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Sink";
+	- _id = GUID a065d769-0f6a-482a-b470-be167c3868aa;
+}
+- genTime = 3.22.2018::3:36:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Source";
+	- _id = GUID 26934eaf-0c1e-4855-9d64-6133d6469e57;
+}
+- genTime = 3.29.2018::10:1:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 629b7a2d-060c-42b3-9e6f-645d1718a492;
+}
+- genTime = 3.29.2018::10:1:4;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "FlowPortInterfaces.sbs";
+	- _subsystem = "FlowPortInterfaces";
+	- _class = "";
+	- _name = "intFlowInterface";
+	- _id = GUID 7c44b604-eb41-4808-9305-b0ed8ae479e3;
+}
+- genTime = 3.29.2018::10:1:6;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Builder";
+	- _id = GUID 424eebed-e8ce-40a3-909b-010c063ab06d;
+}
+- genTime = 3.29.2018::10:1:4;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID 042961ba-4a93-4941-96cc-e37375986020;
+}
+- genTime = 3.22.2018::3:33:18;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID e1dce3ff-ea51-48b5-a5dc-c07a356836cb;
+}
+- genTime = 3.22.2018::3:36:39;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Magic";
+	- _id = GUID f7479dd4-0ed9-4814-adef-f79726e47129;
+}
+- genTime = 3.29.2018::10:0:53;
+

@@ -1,0 +1,11 @@
+I-Logix-RPY-Archive version 8.6.0 * 4020511
+
+- filesTable = { IRPYRawContainer 
+	- size = 4;
+	- value = "SimpleQtCountdown.rpy" ""
+	"SimpleQtCountdown_rpy\\Default.sbs" "Default"
+	"SimpleQtCountdown_rpy\\SimpleQtCountdown.cmp" "SimpleQtCountdown"
+	"SimpleQtCountdown_rpy\\Ui.sbs" "Ui"
+	
+}
+

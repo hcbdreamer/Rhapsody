@@ -1,0 +1,51 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 10;
+	- value = "DefaultComponent\\Debug\\Default.cpp" 11.16.2017::13:42:3
+	"DefaultComponent\\Debug\\Default.h" 11.16.2017::13:42:3
+	"DefaultComponent\\Debug\\Timer.cpp" 11.16.2017::13:42:3
+	"DefaultComponent\\Debug\\Timer.h" 11.16.2017::13:42:3
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 11.16.2017::13:40:44
+	"DefaultComponent\\DefaultConfig\\Default.h" 11.16.2017::13:40:44
+	"DefaultComponent\\DefaultConfig\\Timer.cpp" 11.16.2017::13:40:42
+	"DefaultComponent\\DefaultConfig\\Timer.h" 11.16.2017::13:40:42
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 11.16.2017::13:25:39
+	"DefaultComponent\\DefaultConfig\\class_0.h" 11.16.2017::13:25:39
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 09bf1730-6cb8-4987-bca9-e28de04c1dba" "GUID 1355bcfa-3426-4dc4-8520-6888bd3302dc"
+	"GUID edf1faa9-6d2b-4621-b93f-9b852c26e8af" "GUID 1355bcfa-3426-4dc4-8520-6888bd3302dc"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID edf1faa9-6d2b-4621-b93f-9b852c26e8af;
+}
+- genTime = 11.16.2017::13:42:3;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\Debug";
+	- _id = GUID de09d1b8-9910-4735-9fb6-606681ebdbf0;
+}
+- genTime = 11.16.2017::13:42:3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Timer";
+	- _id = GUID 78bbbf1c-e194-4d88-ae65-aac32687189d;
+}
+- genTime = 11.16.2017::13:42:3;
+

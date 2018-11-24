@@ -1,0 +1,117 @@
+<!-- This is a default style sheet for ModelDoc -->
+
+BODY
+{
+    FONT-SIZE: 10pt;
+    MARGIN: 0px 0px 0px 10px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial
+}
+H1
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+H2
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+H3
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+H4
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+H5
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+H6
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 18pt;
+    COLOR: #00008b
+}
+.H7
+{
+    MARGIN-TOP: 10px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 16pt;
+    MARGIN-BOTTOM: 10px;
+    COLOR: #00008b
+}
+.H8
+{
+    MARGIN-TOP: 10px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 16pt;
+    MARGIN-BOTTOM: 10px;
+    COLOR: #00008b
+}
+.H9
+{
+    MARGIN-TOP: 10px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 16pt;
+    MARGIN-BOTTOM: 10px;
+    COLOR: #00008b
+}
+.linkbtn
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 5px
+}
+TD
+{
+    BORDER-RIGHT: #696969 1px solid;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #696969 1px solid;
+    PADDING-LEFT: 4px;
+    FONT-SIZE: 10pt;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: #696969 1px solid;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #696969 1px solid;
+    FONT-FAMILY: Verdana, Arial
+}
+IMG
+{
+    VERTICAL-ALIGN: middle
+}
+TABLE
+{
+    BORDER-RIGHT: #696969 1px solid;
+    BORDER-TOP: #696969 1px solid;
+    MARGIN: 10px 10px 20px;
+    BORDER-LEFT: #696969 1px solid;
+    BORDER-BOTTOM: #696969 1px solid;
+    BORDER-COLLAPSE: collapse
+}
+A:visited
+{
+    COLOR: #0000ff;
+    TEXT-DECORATION: none
+}
+A:link
+{
+    COLOR: #0000ff;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #dc143c;
+    TEXT-DECORATION: underline
+}

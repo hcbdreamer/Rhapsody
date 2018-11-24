@@ -1,0 +1,76 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 24;
+	- value = "DefaultComponent\\DefaultConfig\\A.cpp" 3.30.2018::2:9:51
+	"DefaultComponent\\DefaultConfig\\A.h" 3.30.2018::2:9:51
+	"DefaultComponent\\DefaultConfig\\B.cpp" 3.30.2018::2:17:17
+	"DefaultComponent\\DefaultConfig\\B.h" 3.30.2018::2:17:17
+	"DefaultComponent\\DefaultConfig\\Builder.cpp" 5.5.2018::6:49:46
+	"DefaultComponent\\DefaultConfig\\Builder.h" 5.5.2018::6:49:46
+	"DefaultComponent\\DefaultConfig\\C.cpp" 5.5.2018::6:49:31
+	"DefaultComponent\\DefaultConfig\\C.h" 5.5.2018::6:49:31
+	"DefaultComponent\\DefaultConfig\\D.cpp" 5.5.2018::6:49:39
+	"DefaultComponent\\DefaultConfig\\D.h" 5.5.2018::6:49:39
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 5.5.2018::6:49:20
+	"DefaultComponent\\DefaultConfig\\Default.h" 5.5.2018::6:49:20
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 3.30.2018::2:7:44
+	"DefaultComponent\\DefaultConfig\\class_0.h" 3.30.2018::2:7:44
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 3.30.2018::2:7:47
+	"DefaultComponent\\DefaultConfig\\class_1.h" 3.30.2018::2:7:47
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 3.30.2018::2:8:4
+	"DefaultComponent\\DefaultConfig\\class_2.h" 3.30.2018::2:8:4
+	"DefaultComponent\\DefaultConfig\\class_3.cpp" 3.30.2018::2:11:37
+	"DefaultComponent\\DefaultConfig\\class_3.h" 3.30.2018::2:11:37
+	"DefaultComponent\\DefaultConfig\\class_4.cpp" 3.30.2018::2:11:40
+	"DefaultComponent\\DefaultConfig\\class_4.h" 3.30.2018::2:11:40
+	"DefaultComponent\\DefaultConfig\\class_5.cpp" 3.30.2018::2:18:51
+	"DefaultComponent\\DefaultConfig\\class_5.h" 3.30.2018::2:18:51
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID a61eea58-d26f-4532-950c-6cef7bb4a0a2" "GUID 8637f883-1eb0-49d7-980c-c46f5d3eeea2"
+	"GUID e6b93e06-f7e6-4ea5-ae73-e0c2bb480523" "GUID 8637f883-1eb0-49d7-980c-c46f5d3eeea2"
+	
+}
+- size = 5;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\test2_rpy\\DefaultComponent.cmp";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 173fb77f-fb67-47e0-b337-6bb7604875db;
+}
+- genTime = 3.30.2018::2:31:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test2_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "C";
+	- _id = GUID 29f4cb98-5174-488b-8d0b-332b6e854d4c;
+}
+- genTime = 5.5.2018::6:49:31;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\test2_rpy\\Default.sbs";
+	- _name = "Default";
+	- _id = GUID e6b93e06-f7e6-4ea5-ae73-e0c2bb480523;
+}
+- genTime = 5.5.2018::6:49:20;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test2_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "Builder";
+	- _id = GUID c2118550-3a26-4e96-b198-4c302f6decf6;
+}
+- genTime = 5.5.2018::6:49:46;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test2_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "D";
+	- _id = GUID 05161f7b-4bb4-4483-a515-a27ea820320a;
+}
+- genTime = 5.5.2018::6:49:39;
+

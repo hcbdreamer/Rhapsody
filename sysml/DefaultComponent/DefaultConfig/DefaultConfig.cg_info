@@ -1,0 +1,49 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 8;
+	- value = "DefaultComponent\\DefaultConfig\\A.cpp" 6.3.2018::3:9:39
+	"DefaultComponent\\DefaultConfig\\A.h" 6.3.2018::3:9:39
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 6.3.2018::3:9:39
+	"DefaultComponent\\DefaultConfig\\Default.h" 6.3.2018::3:9:39
+	"DefaultComponent\\DefaultConfig\\block_1.cpp" 5.31.2018::13:2:56
+	"DefaultComponent\\DefaultConfig\\block_1.h" 5.31.2018::13:2:56
+	"DefaultComponent\\DefaultConfig\\flowspecification_5.cpp" 6.3.2018::3:2:44
+	"DefaultComponent\\DefaultConfig\\flowspecification_5.h" 6.3.2018::3:2:44
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID ec40662e-f232-441f-b779-c604ea69ea9c" "GUID cd23436a-1d58-401f-b33f-98be34959862"
+	"GUID fec1537d-b953-44e2-878f-04dd50d1b46d" "GUID cd23436a-1d58-401f-b33f-98be34959862"
+	
+}
+- size = 4;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\sysml_rpy\\DefaultComponent.cmp";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 35cb0f14-8efe-4e77-bbe0-b74de4885b2f;
+}
+- genTime = 6.3.2018::3:10:37;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 6f7cc6c2-0c7e-495d-ab57-474948605f92;
+}
+- genTime = 6.3.2018::3:2:44;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\sysml_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "A";
+	- _id = GUID ca58d48d-25aa-4e6a-a306-92a9be11ba9c;
+}
+- genTime = 6.3.2018::3:10:37;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\sysml_rpy\\Default.sbs";
+	- _name = "Default";
+	- _id = GUID fec1537d-b953-44e2-878f-04dd50d1b46d;
+}
+- genTime = 6.3.2018::3:10:37;
+

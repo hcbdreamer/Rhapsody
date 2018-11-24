@@ -1,0 +1,46 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 5;
+	- value = "SSExample\\Win\\MainSSExample.cpp" 1.28.2018::15:18:49
+	"SSExample\\Win\\Receiver.cpp" 1.28.2018::15:42:54
+	"SSExample\\Win\\Receiver.h" 1.28.2018::15:42:54
+	"SSExample\\Win\\Sender.cpp" 1.28.2018::15:16:25
+	"SSExample\\Win\\Sender.h" 1.28.2018::15:16:25
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID a01a3aa5-c933-4e23-8ce9-e46a2a385110" "GUID 0660995e-c85e-47f6-92a4-51ddf45820cd"
+	"GUID e4ff2807-c0e1-4b05-9226-dad0767721c6" "GUID 0660995e-c85e-47f6-92a4-51ddf45820cd"
+	
+}
+- size = 3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Receiver";
+	- _id = GUID cd9ee915-8146-4654-b61e-a7c005dd76eb;
+}
+- genTime = 1.28.2018::15:42:54;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Sender";
+	- _id = GUID 018ef8de-dda5-4b7c-85a6-2a5600f91a06;
+}
+- genTime = 1.28.2018::15:16:25;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "SSExample.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "SSExample\\Win";
+	- _id = GUID fafc8cde-096a-483a-8f5f-01712b3d1e9d;
+}
+- genTime = 1.28.2018::15:18:18;
+

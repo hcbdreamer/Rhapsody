@@ -1,0 +1,151 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ IComponent 
+	- _id = GUID cae0374e-56e7-42d7-9470-0139f53c855e;
+	- _myState = 8192;
+	- _name = "TesterPrototype";
+	- _displayName = "{\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset134 \\'cb\\'ce\\'cc\\'e5;}}
+\\viewkind4\\uc1\\pard\\lang2052\\f0\\fs18 DefaultComponent\\par
+}
+";
+	- _modifiedTimeWeak = 11.23.2017::13:12:45;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 61867b0e-ba42-4e78-b966-eb7eadd89130;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 11.23.2017::12:44:2;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 3;
+			- value = 
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "CashRegisterPkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "CashRegisterPkg";
+				- _id = GUID 25d82fae-5697-44a4-9b99-ca8b27c112bf;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "InterfacePkg.sbs";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "InterfacePkg";
+				- _id = GUID 2006e191-bb64-40f3-a723-2bcd09dd0012;
+			}
+			{ IHandle 
+				- _m2Class = "ISubsystem";
+				- _filename = "TesterPkg.sbs";
+				- _subsystem = "HardwarePkg";
+				- _class = "";
+				- _name = "TesterPkg";
+				- _id = GUID 14c82a3b-58b8-4ea4-af7b-7f071a36acdb;
+			}
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 1848633a-0f98-4c62-a6c6-19f9f64f16f7;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 1848633a-0f98-4c62-a6c6-19f9f64f16f7;
+			- _myState = 8192;
+			- _name = "Debug";
+			- _modifiedTimeWeak = 11.23.2017::13:13:5;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 57018dad-ff87-4969-a42b-bde904e1ab75;
+					- _modifiedTimeWeak = 11.23.2017::12:16:24;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\CashRegister\\TesterPrototype\\Debug\\TesterPrototype.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID fb3e1cef-b547-44bf-bc7b-4f02b604aa38;
+					- _modifiedTimeWeak = 11.23.2017::12:16:24;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\CashRegister\\TesterPrototype\\Debug\\MainTesterPrototype";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 0;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "TesterPkg.sbs";
+					- _subsystem = "HardwarePkg::TesterPkg";
+					- _class = "";
+					- _name = "TesterBuilder";
+					- _id = GUID 21ac50c5-ff6f-49bb-9fe1-74ba66030884;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID c72bfbbc-dab9-4b19-a0b3-5d51b3860e35;
+				- _myState = 8192;
+				- _name = "Debug";
+				- _modifiedTimeWeak = 11.23.2017::12:16:24;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 11.23.2017::13:13:5;
+			- strongCGTime = 11.23.2017::12:21:40;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 11.23.2017::13:12:45;
+	- strongCGTime = 11.23.2017::13:1:28;
+}
+

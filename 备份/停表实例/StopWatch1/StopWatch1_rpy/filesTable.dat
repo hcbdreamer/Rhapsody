@@ -1,0 +1,12 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- filesTable = { IRPYRawContainer 
+	- size = 5;
+	- value = "StopWatch1.rpy" ""
+	"StopWatch1_rpy\\CGCompatibilityPre821Cpp.sbs" "CGCompatibilityPre821Cpp"
+	"StopWatch1_rpy\\Default.sbs" "Default"
+	"StopWatch1_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"StopWatch1_rpy\\GatewayProjectFiles.sbs" "GatewayProjectFiles"
+	
+}
+

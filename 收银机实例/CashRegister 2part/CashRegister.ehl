@@ -1,0 +1,15 @@
+[Op Calls]
+[Events]
+TesterBuilder[0]->itsCashRegister->GEN(evEnd())`CashRegister
+TesterBuilder[0]->itsCashRegister->GEN(evCancel())`CashRegister
+TesterBuilder[0]->itsCashRegister->GEN(evBarcode(12344))`CashRegister
+TesterBuilder[0]->itsCashRegister->GEN(evBarcode(12345))`CashRegister
+TesterBuilder[0]->itsCashRegister->GEN(evStart())`CashRegister
+CashRegister->GEN(evEnd())`CashRegisterPkg::CashRegister
+CashRegister->GEN(evCancel())`CashRegisterPkg::CashRegister
+CashRegister->GEN(evBarcode(12346))`CashRegisterPkg::CashRegister
+CashRegister->GEN(evBarcode(12344))`CashRegisterPkg::CashRegister
+CashRegister->GEN(evStart())`CashRegisterPkg::CashRegister
+CashRegister->GEN(evBarcode(12345))`CashRegisterPkg::CashRegister
+CashRegister->GEN(evBarcode())`CashRegisterPkg::CashRegister
+[Breakpoints]

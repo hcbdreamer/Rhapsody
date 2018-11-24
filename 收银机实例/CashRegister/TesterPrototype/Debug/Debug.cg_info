@@ -1,0 +1,332 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 116;
+	- value = "DefaultComponent\\DefaultConfig\\CashRegister.cpp" 11.23.2017::12:12:27
+	"DefaultComponent\\DefaultConfig\\CashRegister.h" 11.23.2017::12:12:27
+	"DefaultComponent\\DefaultConfig\\CashRegisterPkg.cpp" 11.23.2017::11:54:32
+	"DefaultComponent\\DefaultConfig\\CashRegisterPkg.h" 11.23.2017::11:54:32
+	"DefaultComponent\\DefaultConfig\\Cashier.cpp" 11.22.2017::8:13:4
+	"DefaultComponent\\DefaultConfig\\Cashier.h" 11.22.2017::8:29:19
+	"DefaultComponent\\DefaultConfig\\Customer.cpp" 11.22.2017::8:12:43
+	"DefaultComponent\\DefaultConfig\\Customer.h" 11.22.2017::8:30:8
+	"DefaultComponent\\DefaultConfig\\Customers.cpp" 11.22.2017::8:12:38
+	"DefaultComponent\\DefaultConfig\\Customers.h" 11.22.2017::8:12:38
+	"DefaultComponent\\DefaultConfig\\IBarcodeReaderEnabled.cpp" 11.22.2017::14:6:1
+	"DefaultComponent\\DefaultConfig\\IBarcodeReaderEnabled.h" 11.22.2017::14:6:1
+	"DefaultComponent\\DefaultConfig\\IDisplay.cpp" 11.22.2017::14:6:14
+	"DefaultComponent\\DefaultConfig\\IDisplay.h" 11.22.2017::14:6:14
+	"DefaultComponent\\DefaultConfig\\IKeyboardEnabled.cpp" 11.22.2017::14:6:34
+	"DefaultComponent\\DefaultConfig\\IKeyboardEnabled.h" 11.22.2017::14:6:34
+	"DefaultComponent\\DefaultConfig\\Iprinter.cpp" 11.22.2017::14:6:46
+	"DefaultComponent\\DefaultConfig\\Iprinter.h" 11.22.2017::14:6:46
+	"DefaultComponent\\DefaultConfig\\Manager.cpp" 11.22.2017::8:13:59
+	"DefaultComponent\\DefaultConfig\\Manager.h" 11.22.2017::8:31:4
+	"DefaultComponent\\DefaultConfig\\Product.cpp" 11.23.2017::11:24:11
+	"DefaultComponent\\DefaultConfig\\Product.h" 11.23.2017::11:24:35
+	"DefaultComponent\\DefaultConfig\\ProductDatabase.cpp" 11.23.2017::11:54:28
+	"DefaultComponent\\DefaultConfig\\ProductDatabase.h" 11.23.2017::11:54:28
+	"DefaultComponent\\DefaultConfig\\Productdatabase.cpp" 11.23.2017::11:54:28
+	"DefaultComponent\\DefaultConfig\\Productdatabase.h" 11.23.2017::11:54:28
+	"DefaultComponent\\DefaultConfig\\Tester.cpp" 11.23.2017::12:8:34
+	"DefaultComponent\\DefaultConfig\\Tester.h" 11.23.2017::12:8:34
+	"DefaultComponent\\DefaultConfig\\TesterBuilder.cpp" 11.23.2017::12:10:22
+	"DefaultComponent\\DefaultConfig\\TesterBuilder.h" 11.23.2017::12:10:22
+	"DefaultComponent\\DefaultConfig\\TesterBulider.cpp" 11.23.2017::12:4:33
+	"DefaultComponent\\DefaultConfig\\TesterBulider.h" 11.23.2017::12:4:33
+	"DefaultComponent\\DefaultConfig\\actor_1.cpp" 11.22.2017::8:12:30
+	"DefaultComponent\\DefaultConfig\\actor_1.h" 11.22.2017::8:12:30
+	"DefaultComponent\\DefaultConfig\\actor_2.cpp" 11.22.2017::8:12:50
+	"DefaultComponent\\DefaultConfig\\actor_2.h" 11.22.2017::8:12:50
+	"DefaultComponent\\DefaultConfig\\actor_5.cpp" 11.22.2017::8:25:10
+	"DefaultComponent\\DefaultConfig\\actor_5.h" 11.22.2017::8:25:10
+	"DefaultComponent\\DefaultConfig\\actor_6.cpp" 11.22.2017::8:25:53
+	"DefaultComponent\\DefaultConfig\\actor_6.h" 11.22.2017::8:25:53
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 11.23.2017::11:49:11
+	"DefaultComponent\\DefaultConfig\\class_1.h" 11.23.2017::11:49:11
+	"DefaultComponent\\DefaultConfig\\class_3.cpp" 11.23.2017::11:52:13
+	"DefaultComponent\\DefaultConfig\\class_3.h" 11.23.2017::11:52:13
+	"DefaultComponent\\DefaultConfig\\class_4.cpp" 11.23.2017::12:7:9
+	"DefaultComponent\\DefaultConfig\\class_4.h" 11.23.2017::12:7:9
+	"DefaultComponent\\DefaultConfig\\class_6.cpp" 11.23.2017::12:9:17
+	"DefaultComponent\\DefaultConfig\\class_6.h" 11.23.2017::12:9:17
+	"DefaultComponent\\DefaultConfig\\class_7.cpp" 11.23.2017::12:9:36
+	"DefaultComponent\\DefaultConfig\\class_7.h" 11.23.2017::12:9:36
+	"DefaultComponent\\DefaultConfig\\interface_0.cpp" 11.22.2017::14:5:30
+	"DefaultComponent\\DefaultConfig\\interface_0.h" 11.22.2017::14:5:30
+	"DefaultComponent\\DefaultConfig\\interface_1.cpp" 11.22.2017::14:6:8
+	"DefaultComponent\\DefaultConfig\\interface_1.h" 11.22.2017::14:6:8
+	"DefaultComponent\\DefaultConfig\\interface_2.cpp" 11.22.2017::14:6:17
+	"DefaultComponent\\DefaultConfig\\interface_2.h" 11.22.2017::14:6:17
+	"DefaultComponent\\DefaultConfig\\interface_3.cpp" 11.22.2017::14:10:48
+	"DefaultComponent\\DefaultConfig\\interface_3.h" 11.22.2017::14:10:48
+	"TesterPrototype\\Debug\\BuyOneGetOneFree.cpp" 12.1.2017::2:40:23
+	"TesterPrototype\\Debug\\BuyOneGetOneFree.h" 12.1.2017::2:13:2
+	"TesterPrototype\\Debug\\CashRegister.cpp" 12.6.2017::13:17:22
+	"TesterPrototype\\Debug\\CashRegister.h" 12.6.2017::13:17:22
+	"TesterPrototype\\Debug\\CashRegisterPkg.cpp" 11.30.2017::13:5:11
+	"TesterPrototype\\Debug\\CashRegisterPkg.h" 11.30.2017::13:5:11
+	"TesterPrototype\\Debug\\CountProduct.cpp" 11.30.2017::8:2:27
+	"TesterPrototype\\Debug\\CountProduct.h" 11.30.2017::7:47:2
+	"TesterPrototype\\Debug\\CountedProduct.cpp" 11.30.2017::13:22:45
+	"TesterPrototype\\Debug\\CountedProduct.h" 11.30.2017::13:20:52
+	"TesterPrototype\\Debug\\IBarcodeReaderEnabled.cpp" 11.27.2017::13:46:0
+	"TesterPrototype\\Debug\\IBarcodeReaderEnabled.h" 11.27.2017::13:46:0
+	"TesterPrototype\\Debug\\IDisplay.cpp" 11.24.2017::7:54:24
+	"TesterPrototype\\Debug\\IDisplay.h" 11.24.2017::7:54:24
+	"TesterPrototype\\Debug\\IKeyboardEnabled.cpp" 11.27.2017::13:44:32
+	"TesterPrototype\\Debug\\IKeyboardEnabled.h" 11.27.2017::13:44:32
+	"TesterPrototype\\Debug\\ISpecialOffer.cpp" 11.30.2017::13:2:37
+	"TesterPrototype\\Debug\\ISpecialOffer.h" 11.30.2017::13:2:37
+	"TesterPrototype\\Debug\\InterfacePkg.cpp" 11.23.2017::12:17:14
+	"TesterPrototype\\Debug\\InterfacePkg.h" 11.23.2017::12:17:14
+	"TesterPrototype\\Debug\\Iprinter.cpp" 11.30.2017::11:59:33
+	"TesterPrototype\\Debug\\Iprinter.h" 11.30.2017::11:59:33
+	"TesterPrototype\\Debug\\KeyReader.cpp" 11.30.2017::12:41:14
+	"TesterPrototype\\Debug\\KeyReader.h" 11.30.2017::12:41:14
+	"TesterPrototype\\Debug\\Product.cpp" 12.1.2017::2:39:39
+	"TesterPrototype\\Debug\\Product.h" 12.1.2017::2:39:39
+	"TesterPrototype\\Debug\\ProductDatabase.cpp" 12.1.2017::2:40:8
+	"TesterPrototype\\Debug\\ProductDatabase.h" 11.30.2017::13:13:45
+	"TesterPrototype\\Debug\\Productdatabase.cpp" 11.23.2017::12:24:8
+	"TesterPrototype\\Debug\\Productdatabase.h" 11.23.2017::12:24:8
+	"TesterPrototype\\Debug\\TenPercentOff.cpp" 12.1.2017::2:40:59
+	"TesterPrototype\\Debug\\TenPercentOff.h" 11.30.2017::13:7:43
+	"TesterPrototype\\Debug\\Tester.cpp" 11.30.2017::12:48:5
+	"TesterPrototype\\Debug\\Tester.h" 11.30.2017::12:48:5
+	"TesterPrototype\\Debug\\TesterBuilder.cpp" 11.30.2017::12:48:10
+	"TesterPrototype\\Debug\\TesterBuilder.h" 11.27.2017::13:19:29
+	"TesterPrototype\\Debug\\TesterPkg.cpp" 11.30.2017::12:36:55
+	"TesterPrototype\\Debug\\TesterPkg.h" 11.30.2017::12:36:55
+	"TesterPrototype\\Debug\\ThreeForOneEuro.cpp" 12.1.2017::2:40:45
+	"TesterPrototype\\Debug\\ThreeForOneEuro.h" 11.30.2017::13:25:3
+	"TesterPrototype\\Debug\\class_21.cpp" 11.30.2017::7:26:3
+	"TesterPrototype\\Debug\\class_21.h" 11.30.2017::7:26:3
+	"TesterPrototype\\Debug\\class_24.cpp" 11.30.2017::12:54:12
+	"TesterPrototype\\Debug\\class_24.h" 11.30.2017::12:54:12
+	"TesterPrototype\\Debug\\class_26.cpp" 11.30.2017::13:1:6
+	"TesterPrototype\\Debug\\class_26.h" 11.30.2017::13:1:6
+	"TesterPrototype\\Debug\\class_27.cpp" 11.30.2017::13:4:16
+	"TesterPrototype\\Debug\\class_27.h" 11.30.2017::13:4:16
+	"TesterPrototype\\Debug\\class_28.cpp" 11.30.2017::13:4:34
+	"TesterPrototype\\Debug\\class_28.h" 11.30.2017::13:4:34
+	"TesterPrototype\\Debug\\class_6.cpp" 11.23.2017::12:26:25
+	"TesterPrototype\\Debug\\class_6.h" 11.23.2017::12:26:25
+	"TesterPrototype\\Debug\\class_7.cpp" 11.23.2017::12:26:46
+	"TesterPrototype\\Debug\\class_7.h" 11.23.2017::12:26:46
+	"TesterPrototype\\Debug\\class_8.cpp" 11.23.2017::13:1:20
+	"TesterPrototype\\Debug\\class_8.h" 11.23.2017::13:1:20
+	"TesterPrototype\\Debug\\class_9.cpp" 11.28.2017::13:12:14
+	"TesterPrototype\\Debug\\class_9.h" 11.28.2017::13:12:14
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 6;
+	- value = "GUID 14c82a3b-58b8-4ea4-af7b-7f071a36acdb" "GUID a3a2510e-a4f6-4a76-aaa2-5d8551b05ce3"
+	"GUID 2006e191-bb64-40f3-a723-2bcd09dd0012" "GUID 794e1a6f-5226-46be-bd1d-f724fd0df35f"
+	"GUID 25d82fae-5697-44a4-9b99-ca8b27c112bf" "GUID 794e1a6f-5226-46be-bd1d-f724fd0df35f"
+	"GUID 376697f2-5aa1-4736-baf3-74fa64b5b03e" "GUID 794e1a6f-5226-46be-bd1d-f724fd0df35f"
+	"GUID a3a2510e-a4f6-4a76-aaa2-5d8551b05ce3" "GUID 794e1a6f-5226-46be-bd1d-f724fd0df35f"
+	"GUID cae0374e-56e7-42d7-9470-0139f53c855e" "GUID 794e1a6f-5226-46be-bd1d-f724fd0df35f"
+	
+}
+- size = 22;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "TesterPkg.sbs";
+	- _subsystem = "HardwarePkg::TesterPkg";
+	- _class = "";
+	- _name = "KeyReader";
+	- _id = GUID d14d2153-4fcd-48fd-989f-1028804ed9b8;
+}
+- genTime = 12.6.2017::13:32:36;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "CountedProduct";
+	- _id = GUID 50c96d73-e5e7-4c5c-b4af-541a8dedfa89;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "AnalysisPkg.sbs";
+	- _subsystem = "AnalysisPkg";
+	- _class = "";
+	- _name = "Cashier";
+	- _id = GUID 6abc3466-141d-438b-a7ae-406e4fc7ff20;
+}
+- genTime = 11.22.2017::8:29:19;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "CashRegisterPkg";
+	- _id = GUID 25d82fae-5697-44a4-9b99-ca8b27c112bf;
+}
+- genTime = 12.6.2017::12:35:57;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "ThreeForOneEuro";
+	- _id = GUID aa4fd2c5-dc68-4977-8c4d-c73335770cb9;
+}
+- genTime = 12.6.2017::12:36:12;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "TesterPkg.sbs";
+	- _subsystem = "HardwarePkg::TesterPkg";
+	- _class = "";
+	- _name = "TesterBuilder";
+	- _id = GUID 21ac50c5-ff6f-49bb-9fe1-74ba66030884;
+}
+- genTime = 12.1.2017::3:13:59;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "TesterPrototype.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "TesterPrototype\\Debug";
+	- _id = GUID 1848633a-0f98-4c62-a6c6-19f9f64f16f7;
+}
+- genTime = 12.1.2017::3:13:59;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "BuyOneGetOneFree";
+	- _id = GUID 3ada30ee-ca07-46df-99cf-bdbbba878ec7;
+}
+- genTime = 12.6.2017::12:36:11;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "AnalysisPkg.sbs";
+	- _subsystem = "AnalysisPkg";
+	- _class = "";
+	- _name = "Customer";
+	- _id = GUID 82b20cc0-4c43-4c4a-8317-0ed756ecf74f;
+}
+- genTime = 11.22.2017::8:30:8;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "InterfacePkg";
+	- _id = GUID 2006e191-bb64-40f3-a723-2bcd09dd0012;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "ISpecialOffer";
+	- _id = GUID 4d139fc1-e9a0-4f6a-8d90-bdfa054c3aef;
+}
+- genTime = 12.6.2017::12:35:53;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "IKeyboardEnabled";
+	- _id = GUID a87e7adb-6f19-4cc1-a601-50a0916461a1;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "CashRegister";
+	- _id = GUID 308e0c76-b927-44e3-b29c-d7c5dca22455;
+}
+- genTime = 12.6.2017::13:17:22;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = "AnalysisPkg.sbs";
+	- _subsystem = "AnalysisPkg";
+	- _class = "";
+	- _name = "Manager";
+	- _id = GUID b6aa0415-b405-423b-bdae-0caf3633924e;
+}
+- genTime = 11.22.2017::8:31:4;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "IDisplay";
+	- _id = GUID 8db6dcc4-40b2-4b8d-9b4d-8bb34fc5245a;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "TesterPkg.sbs";
+	- _subsystem = "HardwarePkg";
+	- _class = "";
+	- _name = "TesterPkg";
+	- _id = GUID 14c82a3b-58b8-4ea4-af7b-7f071a36acdb;
+}
+- genTime = 12.6.2017::13:27:42;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "IBarcodeReaderEnabled";
+	- _id = GUID af3f8731-79b9-4312-bc33-f1c574a42277;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "Iprinter";
+	- _id = GUID d7ec01e0-eb67-41e7-a3e2-0096fee13f91;
+}
+- genTime = 12.1.2017::2:39:43;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "TesterPkg.sbs";
+	- _subsystem = "HardwarePkg::TesterPkg";
+	- _class = "";
+	- _name = "Tester";
+	- _id = GUID f92cbec2-6ef1-419d-92bf-653bb04a805a;
+}
+- genTime = 1.26.2018::8:59:38;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "Product";
+	- _id = GUID 1cad42a1-d784-4905-8e2b-80c54f107dab;
+}
+- genTime = 12.6.2017::13:18:8;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "ProductDatabase";
+	- _id = GUID 3fec643d-54ca-4fdb-b687-2df19bc3444d;
+}
+- genTime = 12.6.2017::12:55:14;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "CashRegisterPkg.sbs";
+	- _subsystem = "CashRegisterPkg";
+	- _class = "";
+	- _name = "TenPercentOff";
+	- _id = GUID 227ee056-afbf-422d-ade0-cfee5ec3e20a;
+}
+- genTime = 12.6.2017::12:36:11;
+

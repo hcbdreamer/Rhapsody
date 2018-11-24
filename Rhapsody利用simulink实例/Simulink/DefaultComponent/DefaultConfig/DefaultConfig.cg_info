@@ -1,0 +1,219 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 24;
+	- value = "DefaultComponent\\DefaultConfig\\Builder.cpp" 3.30.2018::2:58:46
+	"DefaultComponent\\DefaultConfig\\Builder.h" 3.30.2018::2:57:13
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 3.30.2018::2:57:13
+	"DefaultComponent\\DefaultConfig\\Default.h" 3.30.2018::2:57:13
+	"DefaultComponent\\DefaultConfig\\FlowPortInterfaces.cpp" 3.22.2018::8:44:7
+	"DefaultComponent\\DefaultConfig\\FlowPortInterfaces.h" 3.22.2018::8:44:7
+	"DefaultComponent\\DefaultConfig\\Magic.cpp" 3.30.2018::2:55:41
+	"DefaultComponent\\DefaultConfig\\Magic.h" 3.30.2018::2:55:41
+	"DefaultComponent\\DefaultConfig\\Sink.cpp" 3.22.2018::8:44:7
+	"DefaultComponent\\DefaultConfig\\Sink.h" 3.22.2018::8:44:7
+	"DefaultComponent\\DefaultConfig\\Source.cpp" 3.30.2018::2:57:49
+	"DefaultComponent\\DefaultConfig\\Source.h" 3.30.2018::2:57:49
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 3.22.2018::8:21:33
+	"DefaultComponent\\DefaultConfig\\class_0.h" 3.22.2018::8:21:33
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 3.22.2018::8:40:53
+	"DefaultComponent\\DefaultConfig\\class_1.h" 3.22.2018::8:40:53
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 3.22.2018::8:41:11
+	"DefaultComponent\\DefaultConfig\\class_2.h" 3.22.2018::8:41:11
+	"DefaultComponent\\DefaultConfig\\class_3.cpp" 3.22.2018::8:42:24
+	"DefaultComponent\\DefaultConfig\\class_3.h" 3.22.2018::8:42:24
+	"DefaultComponent\\DefaultConfig\\doubleFlowInterface.cpp" 3.22.2018::8:40:38
+	"DefaultComponent\\DefaultConfig\\doubleFlowInterface.h" 3.22.2018::8:40:38
+	"DefaultComponent\\DefaultConfig\\intFlowInterface.cpp" 3.22.2018::8:42:9
+	"DefaultComponent\\DefaultConfig\\intFlowInterface.h" 3.22.2018::8:44:7
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 03e9a245-15a0-4cdf-b8da-8b3767c7e9a6" "GUID 5110e53d-dd0b-40a3-a355-49b7b29e6ef2"
+	"GUID 823a8017-7023-41cb-a9ce-35ffde4f498e" "GUID 5110e53d-dd0b-40a3-a355-49b7b29e6ef2"
+	"GUID e0db4c01-2c83-47a7-99a7-1deb76da7776" "GUID 5110e53d-dd0b-40a3-a355-49b7b29e6ef2"
+	
+}
+- size = 20;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Sink";
+	- _id = GUID dfd6a436-b449-425d-85ed-075f3945f5d2;
+}
+- genTime = 3.30.2018::2:55:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 2be0eea6-3929-4f6b-b802-0defdc5a4b9b;
+}
+- genTime = 3.30.2018::2:55:53;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 48474ced-2ddc-4109-ba17-0ca1559b2279;
+}
+- genTime = 3.30.2018::2:56:28;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 61df0e0f-43d9-427a-a1bd-b445a420b848;
+}
+- genTime = 3.30.2018::2:54:30;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 5a3bb2a7-ff2e-4f03-bdcb-87127c4cd3f3;
+}
+- genTime = 3.30.2018::2:53:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "FlowPortInterfaces.sbs";
+	- _subsystem = "FlowPortInterfaces";
+	- _class = "";
+	- _name = "intFlowInterface";
+	- _id = GUID bfc3e2c0-7127-450d-8434-8257daf16c64;
+}
+- genTime = 3.30.2018::2:58:46;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Source";
+	- _id = GUID 9197f3e4-87c8-49f6-8080-9e4262e09ac6;
+}
+- genTime = 3.30.2018::2:57:49;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID a3e41176-ccb8-48eb-8680-ef5cd153bf0b;
+}
+- genTime = 3.30.2018::2:57:13;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 1eb0f997-16c6-423b-97dd-10104fd477f9;
+}
+- genTime = 3.30.2018::2:57:13;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 9de79714-9578-459d-a490-c368bfdfdc81;
+}
+- genTime = 3.30.2018::2:55:48;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID a81625b5-0218-4560-a165-52057d9697dd;
+}
+- genTime = 3.30.2018::2:54:16;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID 823a8017-7023-41cb-a9ce-35ffde4f498e;
+}
+- genTime = 3.30.2018::2:57:13;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID f6534184-a769-44af-a8e9-26cdd93e4ec1;
+}
+- genTime = 3.30.2018::2:54:3;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID bdfef107-062c-4f65-ae71-6175ae8823a7;
+}
+- genTime = 3.30.2018::2:57:13;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 6c1b81f0-c363-4355-98d6-e23f9707dbdc;
+}
+- genTime = 3.30.2018::2:53:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 1be08159-0768-4ae7-9c7b-8a4847779241;
+}
+- genTime = 3.30.2018::2:53:7;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Magic";
+	- _id = GUID ccd9d427-225c-4031-b1b4-a4d0065593a5;
+}
+- genTime = 3.30.2018::2:56:33;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Builder";
+	- _id = GUID 3a9e770c-df67-4a82-a635-a3c048771c40;
+}
+- genTime = 3.30.2018::2:58:46;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 2efb87d9-5e2a-4f9b-b597-6d9e90eed1be;
+}
+- genTime = 3.30.2018::2:55:5;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _filename = "";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "";
+	- _id = GUID 1b0adcbc-9c2a-4bc8-8664-f107f30e8360;
+}
+- genTime = 3.30.2018::2:55:5;
+

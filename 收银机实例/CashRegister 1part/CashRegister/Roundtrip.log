@@ -1,0 +1,9 @@
+
+反向工程已完成.
+
+已将源工件添加到模型中以确保生成的代码能够反映来自原始代码的详细信息，例如全局注释、预处理器伪指令和元素的顺序。请参阅日志文件以获取更多详细信息。
+要在 Rhapsody 浏览器中查看“源工件”，请打开“查看”菜单并选择“浏览器显示选项 > 显示源工件”。
+为以下文件添加源工件：
+正在将 File“ProductDatabase:impl”添加到 Class“ProductDatabase”。
+正在将 File“ProductDatabase:spec”添加到 Class“ProductDatabase”。
+

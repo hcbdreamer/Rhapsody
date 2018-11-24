@@ -1,0 +1,23 @@
+[Helpers]
+numberOfElements=3
+
+name1=QTSimplifier
+JavaMainClass1=com.ibm.simplifier.qt.QTSimpiliferPlugin
+JavaClassPath1=$OMROOT/Profiles/QTProfile/qtsimplifier.jar
+isPlugin1=1
+isVisible1=0
+DLLServerCompatible1=1
+
+name2=QT Profile\Generate Widget Class
+JavaMainClass2=com.ibm.qt.widgetgen.QTWidgetClassGeneratorPlugin
+JavaClassPath2=$OMROOT/Profiles/QTProfile/qtwidgetgen.jar
+isPlugin2=1
+isVisible2=1
+DLLServerCompatible2=1
+
+name3=QT Profile\Generate Widget Class
+isPluginCommand3=1
+isVisible3=1
+command3=QT Profile\Generate Widget Class
+applicableTo3=QTUiFile
+DLLServerCompatible3=1

@@ -1,0 +1,301 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ ISubsystem 
+	- _id = GUID 7229cc8c-2805-4cb9-973b-ee7836c92a10;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 1.29.2018::3:23:4;
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID ea33bde2-49a9-4069-bb8b-8f1fc7479e70;
+			- _myState = 10240;
+			- _name = "stereotype_2";
+			- _modifiedTimeWeak = 1.28.2018::14:53:19;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Argument"; 
+			}
+		}
+	}
+	- weakCGTime = 1.29.2018::3:23:4;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID b36d1f8d-a195-42ac-88c3-3fde7b2d7d8f;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IClass 
+			- _id = GUID b36d1f8d-a195-42ac-88c3-3fde7b2d7d8f;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.28.2018::14:56:53;
+			- weakCGTime = 1.28.2018::14:56:53;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 9b66dcc7-7584-4c38-ad9a-f03cecca8424;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Class";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "ImpIncludes";
+										- _Value = "<iostream>";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Sender";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset134 \\'cb\\'ce\\'cc\\'e5;}}
+\\viewkind4\\uc1\\pard\\lang2052\\f0\\fs18 Sendar\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+					- _subsystem = "QTProfile";
+					- _class = "";
+					- _name = "QTObject";
+					- _id = GUID bfde4135-202f-4e04-b620-b941ed0df6a0;
+				}
+			}
+			- _modifiedTimeWeak = 1.29.2018::3:23:54;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 5fedc0e6-beb9-459d-b10b-75a44c5d4c83;
+			}
+			- _lastID = 2;
+			- weakCGTime = 1.29.2018::3:23:54;
+			- strongCGTime = 1.28.2018::14:59:22;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 89959d08-832b-47ce-b18d-47cace813610;
+					- _myState = 8192;
+					- _name = "sendValue";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+							- _subsystem = "QTProfile";
+							- _class = "";
+							- _name = "QTSignal";
+							- _id = GUID 3a293fe3-a212-4a1a-ad36-d3073b1d3968;
+						}
+					}
+					- _modifiedTimeWeak = 1.29.2018::3:23:54;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID 7da17599-9b48-47aa-b66a-a6f32270965e;
+							- _myState = 8192;
+							- _name = "x";
+							- _modifiedTimeWeak = 1.29.2018::3:23:31;
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID a2807c2e-2d3b-4b6e-b3ac-c2ab5498867e;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtCore";
+						- _class = "";
+						- _name = "QObject";
+						- _id = GUID a18eb4ae-d9dd-41ad-acf7-6036c0ab3289;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f8b785b1-46b6-402c-ae6f-18b7da424073;
+			- _myState = 8192;
+			- _name = "Receiver";
+			- _displayName = "{\\rtf1\\ansi\\ansicpg936\\deff0\\deflang1033\\deflangfe2052{\\fonttbl{\\f0\\fnil\\fcharset134 \\'cb\\'ce\\'cc\\'e5;}}
+\\viewkind4\\uc1\\pard\\lang2052\\f0\\fs18 class_1\\par
+}
+";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+					- _subsystem = "QTProfile";
+					- _class = "";
+					- _name = "QTObject";
+					- _id = GUID bfde4135-202f-4e04-b620-b941ed0df6a0;
+				}
+			}
+			- _modifiedTimeWeak = 1.28.2018::14:58:38;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 5fedc0e6-beb9-459d-b10b-75a44c5d4c83;
+			}
+			- _lastID = 1;
+			- weakCGTime = 1.28.2018::14:58:38;
+			- strongCGTime = 1.28.2018::14:56:53;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPrimitiveOperation 
+					- _id = GUID 1a59defb-2855-41fc-acbc-5dedb6c1f2eb;
+					- _myState = 8192;
+					- _name = "receiveValue";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+							- _subsystem = "QTProfile";
+							- _class = "";
+							- _name = "QTSlot";
+							- _id = GUID 0d08d85f-9f2f-4731-afa6-3d33fed72330;
+						}
+					}
+					- _modifiedTimeWeak = 1.28.2018::14:58:38;
+					- _lastID = 1;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IArgument 
+							- _id = GUID fa303b1b-87a2-470a-9a15-33cd7d22e0bb;
+							- _myState = 8192;
+							- _name = "y";
+							- _modifiedTimeWeak = 1.28.2018::14:57:36;
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypesC++.sbs";
+								- _subsystem = "PredefinedTypesCpp";
+								- _class = "";
+								- _name = "int";
+								- _id = GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4;
+							}
+							- _isOrdered = 0;
+							- _argumentDirection = In;
+						}
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypesC++.sbs";
+						- _subsystem = "PredefinedTypesCpp";
+						- _class = "";
+						- _name = "void";
+						- _id = GUID c6b70728-b655-45a0-abb7-8ea5d3da94be;
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "std::cout<<\"Received \"<<y<<std::endl;";
+					}
+				}
+			}
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 49a135fd-7df7-4302-8bec-1055b7bbd383;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtCore";
+						- _class = "";
+						- _name = "QObject";
+						- _id = GUID a18eb4ae-d9dd-41ad-acf7-6036c0ab3289;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

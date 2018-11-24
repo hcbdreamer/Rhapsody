@@ -1,0 +1,34 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 2;
+	- value = "SimpleQtCountdown\\Win\\MyCountdown.cpp" 1.29.2018::10:12:21
+	"SimpleQtCountdown\\Win\\MyCountdown.h" 1.29.2018::10:12:21
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 4b80961d-4def-443c-a558-4a0276c2bc18" "GUID f7f6935a-5582-4a3d-a000-c292b407216d"
+	"GUID 7b929ac4-38f1-4357-807c-d8f4deb4cccf" "GUID f7f6935a-5582-4a3d-a000-c292b407216d"
+	
+}
+- size = 2;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "SimpleQtCountdown.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "SimpleQtCountdown\\Win";
+	- _id = GUID 24bdf1a2-384f-4242-b0fc-8ab70e5f5ce6;
+}
+- genTime = 1.29.2018::10:12:21;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "MyCountdown";
+	- _id = GUID 1ea89491-4c62-4ef9-9402-9facd51f8e20;
+}
+- genTime = 1.29.2018::10:12:21;
+

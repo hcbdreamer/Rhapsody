@@ -1,0 +1,121 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 24;
+	- value = "DefaultComponent\\DefaultConfig\\Builder.cpp" 1.22.2018::8:47:10
+	"DefaultComponent\\DefaultConfig\\Builder.h" 1.20.2018::9:13:28
+	"DefaultComponent\\DefaultConfig\\HardwarePkg.cpp" 1.23.2018::12:11:47
+	"DefaultComponent\\DefaultConfig\\HardwarePkg.h" 1.23.2018::12:11:47
+	"DefaultComponent\\DefaultConfig\\Idisplay.cpp" 1.20.2018::9:9:6
+	"DefaultComponent\\DefaultConfig\\Idisplay.h" 1.22.2018::8:41:7
+	"DefaultComponent\\DefaultConfig\\Iinput.cpp" 1.23.2018::11:56:20
+	"DefaultComponent\\DefaultConfig\\Iinput.h" 1.23.2018::11:56:20
+	"DefaultComponent\\DefaultConfig\\InterfacePkg.cpp" 1.22.2018::8:17:38
+	"DefaultComponent\\DefaultConfig\\InterfacePkg.h" 1.22.2018::8:17:38
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 1.20.2018::8:46:19
+	"DefaultComponent\\DefaultConfig\\class_2.h" 1.20.2018::8:46:19
+	"DefaultComponent\\DefaultConfig\\class_4.cpp" 1.20.2018::8:47:10
+	"DefaultComponent\\DefaultConfig\\class_4.h" 1.20.2018::8:47:10
+	"DefaultComponent\\DefaultConfig\\interface_0.cpp" 1.20.2018::8:44:19
+	"DefaultComponent\\DefaultConfig\\interface_0.h" 1.20.2018::8:44:19
+	"DefaultComponent\\DefaultConfig\\interface_1.cpp" 1.22.2018::8:14:39
+	"DefaultComponent\\DefaultConfig\\interface_1.h" 1.22.2018::8:14:39
+	"DefaultComponent\\DefaultConfig\\main.cpp" 1.23.2018::12:24:48
+	"DefaultComponent\\DefaultConfig\\main.h" 1.23.2018::12:23:36
+	"DefaultComponent\\DefaultConfig\\mainPkg.cpp" 1.20.2018::9:11:19
+	"DefaultComponent\\DefaultConfig\\mainPkg.h" 1.20.2018::9:11:19
+	"DefaultComponent\\DefaultConfig\\test.cpp" 1.23.2018::12:23:36
+	"DefaultComponent\\DefaultConfig\\test.h" 1.23.2018::12:23:36
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 4;
+	- value = "GUID 1b282770-18de-4bca-b5c9-7296eacd6fc6" "GUID 66878eea-8a42-4478-ac75-e8abfcd20a92"
+	"GUID a1f9a14f-115d-4548-86d7-e6332194da50" "GUID 66878eea-8a42-4478-ac75-e8abfcd20a92"
+	"GUID b92d0407-794a-46e9-bd3c-b3d8eb0a0991" "GUID 66878eea-8a42-4478-ac75-e8abfcd20a92"
+	"GUID d799724c-01e6-41a2-b015-7446aab63c4b" "GUID 66878eea-8a42-4478-ac75-e8abfcd20a92"
+	
+}
+- size = 9;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "mainPkg.sbs";
+	- _subsystem = "mainPkg";
+	- _class = "";
+	- _name = "main";
+	- _id = GUID 6ffdcda9-6838-413d-a423-02fa7218d792;
+}
+- genTime = 1.25.2018::2:55:5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "Idisplay";
+	- _id = GUID e87d1831-e74d-41ac-9ecd-127e3c1ca8d9;
+}
+- genTime = 1.23.2018::12:6:22;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "mainPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "mainPkg";
+	- _id = GUID b92d0407-794a-46e9-bd3c-b3d8eb0a0991;
+}
+- genTime = 1.23.2018::12:24:48;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "HardwarePkg";
+	- _class = "";
+	- _name = "test";
+	- _id = GUID ea3f8ed4-8f79-4228-81bd-3f6083b7d0fb;
+}
+- genTime = 1.26.2018::5:52:35;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "Iinput";
+	- _id = GUID 7efad1ed-fa15-4946-898f-c889f9718340;
+}
+- genTime = 1.23.2018::12:6:22;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "HardwarePkg";
+	- _class = "";
+	- _name = "Builder";
+	- _id = GUID 63397d35-3b3b-4f4f-a3d6-cccac1a7e5f9;
+}
+- genTime = 1.25.2018::2:56:40;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "InterfacePkg";
+	- _id = GUID 1b282770-18de-4bca-b5c9-7296eacd6fc6;
+}
+- genTime = 1.23.2018::12:6:22;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "HardwarePkg";
+	- _id = GUID a1f9a14f-115d-4548-86d7-e6332194da50;
+}
+- genTime = 1.25.2018::13:7:46;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 26674393-6ab5-4ed1-928c-c3faba0e62f1;
+}
+- genTime = 1.23.2018::12:24:48;
+

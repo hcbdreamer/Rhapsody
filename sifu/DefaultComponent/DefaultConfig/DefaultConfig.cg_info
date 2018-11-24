@@ -1,0 +1,75 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 16;
+	- value = "DefaultComponent\\DefaultConfig\\class1.cpp" 1.25.2018::7:27:11
+	"DefaultComponent\\DefaultConfig\\class1.h" 1.25.2018::7:27:11
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 1.25.2018::7:25:59
+	"DefaultComponent\\DefaultConfig\\class_0.h" 1.25.2018::7:25:59
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 1.25.2018::7:28:36
+	"DefaultComponent\\DefaultConfig\\class_1.h" 1.25.2018::7:28:36
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 1.25.2018::7:28:43
+	"DefaultComponent\\DefaultConfig\\class_2.h" 1.25.2018::7:28:43
+	"DefaultComponent\\DefaultConfig\\sifu.cpp" 3.13.2018::7:57:8
+	"DefaultComponent\\DefaultConfig\\sifu.h" 3.13.2018::7:57:8
+	"DefaultComponent\\DefaultConfig\\sifu1.cpp" 1.25.2018::7:28:42
+	"DefaultComponent\\DefaultConfig\\sifu1.h" 1.25.2018::7:29:18
+	"DefaultComponent\\DefaultConfig\\sifu2.cpp" 1.25.2018::7:28:47
+	"DefaultComponent\\DefaultConfig\\sifu2.h" 1.25.2018::7:29:30
+	"DefaultComponent\\DefaultConfig\\sifuPkg.cpp" 3.13.2018::7:57:3
+	"DefaultComponent\\DefaultConfig\\sifuPkg.h" 3.13.2018::7:57:3
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 4f190c07-3d11-45fd-b5ba-58c981fd07a3" "GUID aa5064a0-31dd-4ccc-9fb4-aa6d2bbf799e"
+	"GUID 66870687-f22d-4f56-b7fb-79c9f93578a9" "GUID aa5064a0-31dd-4ccc-9fb4-aa6d2bbf799e"
+	
+}
+- size = 5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "sifuPkg.sbs";
+	- _subsystem = "sifuPkg";
+	- _class = "";
+	- _name = "sifu";
+	- _id = GUID 302d90e8-5bb1-406f-8054-975d0a975d93;
+}
+- genTime = 3.13.2018::7:57:8;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "sifuPkg.sbs";
+	- _subsystem = "sifuPkg";
+	- _class = "";
+	- _name = "sifu1";
+	- _id = GUID a8729015-4d7c-4351-995d-513ac0a135cd;
+}
+- genTime = 1.25.2018::7:29:18;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 3ac8f3ad-734b-45a2-90ff-9a7f549deac5;
+}
+- genTime = 1.25.2018::7:25:59;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "sifuPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "sifuPkg";
+	- _id = GUID 4f190c07-3d11-45fd-b5ba-58c981fd07a3;
+}
+- genTime = 3.13.2018::7:57:3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "sifuPkg.sbs";
+	- _subsystem = "sifuPkg";
+	- _class = "";
+	- _name = "sifu2";
+	- _id = GUID 4632a168-30fc-4be5-a4ea-779e964cc0bd;
+}
+- genTime = 1.25.2018::7:29:30;
+

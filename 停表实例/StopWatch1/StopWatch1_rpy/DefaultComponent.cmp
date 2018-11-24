@@ -1,0 +1,320 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ IComponent 
+	- _id = GUID 09bf1730-6cb8-4987-bca9-e28de04c1dba;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 11.16.2017::14:20:16;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 3aeb0894-c75c-4a75-b3ee-3d150ae6d575;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 11.16.2017::13:25:12;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 5e4a5d19-5bd9-4b0b-93b7-d53f162a37d3;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID de09d1b8-9910-4735-9fb6-606681ebdbf0;
+			- _myState = 8192;
+			- _name = "Debug";
+			- _modifiedTimeWeak = 11.16.2017::13:41:14;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 3efe8f51-aa5d-4061-82c9-ea9657ef469b;
+					- _modifiedTimeWeak = 11.16.2017::13:41:10;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Debug\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID fb7b38c1-a654-4c1f-ab89-bb66e3d809b5;
+					- _modifiedTimeWeak = 11.16.2017::13:41:10;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Debug\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "";
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 774d748e-11d4-4458-90df-1a7bee7cb4cf;
+				- _myState = 8192;
+				- _name = "Debug";
+				- _modifiedTimeWeak = 11.16.2017::13:41:10;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 11.16.2017::13:41:14;
+			- strongCGTime = 11.16.2017::13:41:10;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 5e4a5d19-5bd9-4b0b-93b7-d53f162a37d3;
+			- _myState = 8192;
+			- _name = "Release";
+			- _modifiedTimeWeak = 11.16.2017::14:4:26;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 8b3d433b-c84f-477f-99a4-dff47133bae3;
+					- _modifiedTimeWeak = 11.16.2017::13:41:48;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Release\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID e23961e3-4c62-4117-96b8-470c61580107;
+					- _modifiedTimeWeak = 11.16.2017::13:41:48;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Release\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "builder";
+					- _id = GUID 22454fc2-6ad6-426f-9d77-b69ba95a96f4;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 894818ec-21fb-41d9-9f85-786eb0e269ea;
+				- _myState = 8192;
+				- _name = "Release";
+				- _modifiedTimeWeak = 11.16.2017::13:41:47;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 11.16.2017::14:4:26;
+			- strongCGTime = 11.16.2017::13:41:57;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 38cd7aa7-b9c1-4db1-b8a3-72dd314db706;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "WebComponents";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "WebFramework";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "GenerateInstrumentationCode";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Release_web";
+			- _modifiedTimeWeak = 11.16.2017::14:20:48;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID af5b84e3-0fed-4ff5-84e1-3ecdbc23a497;
+					- _modifiedTimeWeak = 11.16.2017::14:20:29;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Release_web\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 62238f11-2be1-4270-9e9f-67e1082c43fe;
+					- _modifiedTimeWeak = 11.16.2017::14:20:29;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Rhapsody\\Exercise\\StopWatch1\\DefaultComponent\\Release_web\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "builder";
+					- _id = GUID 22454fc2-6ad6-426f-9d77-b69ba95a96f4;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 993cd640-cd1e-4c99-8624-eb56c8542799;
+				- _myState = 8192;
+				- _name = "Release_web";
+				- _modifiedTimeWeak = 11.16.2017::14:20:29;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 11.16.2017::14:20:48;
+			- strongCGTime = 11.16.2017::14:20:48;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID edf1faa9-6d2b-4621-b93f-9b852c26e8af;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Settings\\UMLPerspectives\\UMLPerspectives.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "UMLPerspectives";
+			- _id = GUID d24d9192-bc4f-48a2-a4e1-fdaebbdfa6b6;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 11.16.2017::14:20:16;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

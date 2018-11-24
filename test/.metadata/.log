@@ -1,0 +1,16 @@
+!SESSION 2018-01-19 16:27:17.001 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Windows 10 x86-32 20160427_301573 (JIT enabled, AOT enabled)
+J9VM - R28_Java8_SR3_20160427_1620_B301573
+JIT  - tr.r14.java.green_20160329_114288
+GC   - R28_Java8_SR3_20160427_1620_B301573
+J9CL - 20160427_301573
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2018-01-19 16:28:18.327
+!MESSAGE Unable to create view ID com.sodius.mdw.ide.ui.modelView: Plug-in "com.sodius.mdw.rulescomposer.ui" was unable to instantiate class "com.sodius.rhapsody.licensing.RulesComposerApplicationProvider".
+!STACK 1
+Plug-in "com.sodius.mdw.rulescomposer.ui" was unable to instantiate class "com.sodius.rhapsody.licensing.RulesComposerApplicationProvider".
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-01-19 16:28:18.327
+!MESSAGE Plug-in "com.sodius.mdw.rulescomposer.ui" was unable to instantiate class "com.sodius.rhapsody.licensing.RulesComposerApplicationProvider".
