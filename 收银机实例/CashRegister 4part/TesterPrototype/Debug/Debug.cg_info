@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.14.0 * 9810313
+I-Logix-RPY-Archive version 8.15.0 * 9835550
 
 - m_fileModifyTime = { IRPYRawContainer 
 	- size = 100;
@@ -60,10 +60,10 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	"DefaultComponent\\DefaultConfig\\interface_2.h" 11.22.2017::14:6:17
 	"DefaultComponent\\DefaultConfig\\interface_3.cpp" 11.22.2017::14:10:48
 	"DefaultComponent\\DefaultConfig\\interface_3.h" 11.22.2017::14:10:48
-	"TesterPrototype\\Debug\\CashRegister.cpp" 5.5.2018::9:20:45
-	"TesterPrototype\\Debug\\CashRegister.h" 5.5.2018::9:20:45
-	"TesterPrototype\\Debug\\CashRegisterPkg.cpp" 11.30.2017::11:55:13
-	"TesterPrototype\\Debug\\CashRegisterPkg.h" 11.30.2017::11:55:13
+	"TesterPrototype\\Debug\\CashRegister.cpp" 12.6.2018::15:1:30
+	"TesterPrototype\\Debug\\CashRegister.h" 12.6.2018::15:1:30
+	"TesterPrototype\\Debug\\CashRegisterPkg.cpp" 12.6.2018::15:1:16
+	"TesterPrototype\\Debug\\CashRegisterPkg.h" 12.6.2018::15:1:16
 	"TesterPrototype\\Debug\\CountProduct.cpp" 11.30.2017::8:2:27
 	"TesterPrototype\\Debug\\CountProduct.h" 11.30.2017::7:47:2
 	"TesterPrototype\\Debug\\CountedProduct.cpp" 1.28.2018::10:32:5
@@ -72,16 +72,16 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	"TesterPrototype\\Debug\\IBarcodeReaderEnabled.h" 5.5.2018::9:18:25
 	"TesterPrototype\\Debug\\IDisplay.cpp" 5.5.2018::9:17:26
 	"TesterPrototype\\Debug\\IDisplay.h" 5.5.2018::9:17:26
-	"TesterPrototype\\Debug\\IKeyboardEnabled.cpp" 11.27.2017::13:44:32
-	"TesterPrototype\\Debug\\IKeyboardEnabled.h" 11.27.2017::13:44:32
+	"TesterPrototype\\Debug\\IKeyboardEnabled.cpp" 12.11.2018::8:51:3
+	"TesterPrototype\\Debug\\IKeyboardEnabled.h" 12.11.2018::8:51:3
 	"TesterPrototype\\Debug\\InterfacePkg.cpp" 5.5.2018::9:18:42
 	"TesterPrototype\\Debug\\InterfacePkg.h" 5.5.2018::9:18:42
 	"TesterPrototype\\Debug\\Iprinter.cpp" 11.30.2017::11:59:33
 	"TesterPrototype\\Debug\\Iprinter.h" 11.30.2017::11:59:33
 	"TesterPrototype\\Debug\\KeyReader.cpp" 11.30.2017::12:41:14
 	"TesterPrototype\\Debug\\KeyReader.h" 11.30.2017::12:41:14
-	"TesterPrototype\\Debug\\Product.cpp" 11.30.2017::12:1:52
-	"TesterPrototype\\Debug\\Product.h" 11.30.2017::7:56:34
+	"TesterPrototype\\Debug\\Product.cpp" 12.6.2018::15:1:51
+	"TesterPrototype\\Debug\\Product.h" 12.6.2018::15:1:51
 	"TesterPrototype\\Debug\\ProductDatabase.cpp" 11.24.2017::8:56:37
 	"TesterPrototype\\Debug\\ProductDatabase.h" 11.24.2017::8:2:21
 	"TesterPrototype\\Debug\\Productdatabase.cpp" 11.23.2017::12:24:8
@@ -145,7 +145,7 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	- _name = "CashRegisterPkg";
 	- _id = GUID 25d82fae-5697-44a4-9b99-ca8b27c112bf;
 }
-- genTime = 1.28.2018::10:32:6;
+- genTime = 12.11.2018::8:52:9;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\CashRegister_rpy\\TesterPkg.sbs";
@@ -183,7 +183,7 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	- _name = "IKeyboardEnabled";
 	- _id = GUID a87e7adb-6f19-4cc1-a601-50a0916461a1;
 }
-- genTime = 1.28.2018::10:32:6;
+- genTime = 12.11.2018::8:51:3;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\CashRegister_rpy\\CashRegisterPkg.sbs";
@@ -191,7 +191,7 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	- _name = "CashRegister";
 	- _id = GUID 308e0c76-b927-44e3-b29c-d7c5dca22455;
 }
-- genTime = 5.5.2018::9:20:45;
+- genTime = 12.11.2018::8:50:36;
 - hElement = { IHandle 
 	- _m2Class = "IActor";
 	- _filename = ".\\..\\..\\CashRegister_rpy\\AnalysisPkg.sbs";
@@ -247,7 +247,7 @@ I-Logix-RPY-Archive version 8.14.0 * 9810313
 	- _name = "Product";
 	- _id = GUID 1cad42a1-d784-4905-8e2b-80c54f107dab;
 }
-- genTime = 1.28.2018::10:32:6;
+- genTime = 12.6.2018::15:1:52;
 - hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\CashRegister_rpy\\CashRegisterPkg.sbs";

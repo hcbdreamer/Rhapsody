@@ -1,10 +1,10 @@
 /*********************************************************************
-	Rhapsody	: 8.2 
-	Login		: h
+	Rhapsody	: 8.3.1 
+	Login		: 15636
 	Component	: TesterPrototype 
 	Configuration 	: Debug
 	Model Element	: IKeyboardEnabled
-//!	Generated Date	: 周一, 27, 11月 2017  
+//!	Generated Date	: 周二, 11, 12月 2018  
 	File Path	: TesterPrototype\Debug\IKeyboardEnabled.h
 *********************************************************************/
 

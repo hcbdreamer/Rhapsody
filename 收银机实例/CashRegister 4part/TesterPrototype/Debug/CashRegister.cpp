@@ -1,10 +1,10 @@
 /********************************************************************
-	Rhapsody	: 8.2.1 
-	Login		: h
+	Rhapsody	: 8.3.1 
+	Login		: 15636
 	Component	: TesterPrototype 
 	Configuration 	: Debug
 	Model Element	: CashRegister
-//!	Generated Date	: 周六, 5, 5月 2018  
+//!	Generated Date	: 周四, 6, 12月 2018  
 	File Path	: TesterPrototype\Debug\CashRegister.cpp
 *********************************************************************/
 
