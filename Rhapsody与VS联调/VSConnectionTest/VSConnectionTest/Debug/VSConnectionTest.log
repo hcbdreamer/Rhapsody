@@ -1,0 +1,27 @@
+﻿生成启动时间为 2019/1/14 22:38:24。
+     1>项目“E:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\VSConnectionTest\VSConnectionTest\VSConnectionTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\VSConnectionTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\VSConnectionTest\VSConnectionTest" /IC:\Rhapsody8.3.1\Share /IC:\Rhapsody8.3.1\Share\LangCpp /IC:\Rhapsody8.3.1\Share\LangCpp\oxf /IC:\Rhapsody8.3.1\Share\LangCpp\aom /IC:\Rhapsody8.3.1\Share\LangCpp\tom /IC:\Rhapsody8.3.1\Share\LangCpp\osconfig\WIN32 /IC:\Rhapsody8.3.1\Share\LangCpp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D OMANIMATOR /D _UNICODE /D UNICODE /Gm /EHa /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AccelerRometerClass.cpp AccelerRometerPkg.cpp BaseClassPkg.cpp MainDefaultComponent.cpp TestObjectClass.cpp
+         AccelerRometerClass.cpp
+     1>e:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\vsconnectiontest\vsconnectiontest\accelerrometerclass.cpp(128): error C2227: “->isTypeOf”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>e:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\vsconnectiontest\vsconnectiontest\accelerrometerclass.cpp(128): error C3861: “getCurrentEvent”: 找不到标识符
+     1>e:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\vsconnectiontest\vsconnectiontest\accelerrometerclass.cpp(128): error C3861: “getCurrentEvent”: 找不到标识符
+     1>e:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\vsconnectiontest\vsconnectiontest\accelerrometerclass.cpp(142): error C3861: “rootState_serializeStates”: 找不到标识符
+         正在生成代码...
+         正在编译...
+         AccelerRometerPkg.cpp
+         正在生成代码...
+         正在编译...
+         MainDefaultComponent.cpp
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         TestObjectClass.cpp
+         BaseClassPkg.cpp
+     1>已完成生成项目“E:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\VSConnectionTest\VSConnectionTest\VSConnectionTest.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.08

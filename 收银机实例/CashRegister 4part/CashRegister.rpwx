@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>936</CODE-PAGE>
+	<version>100.831.0</version>
+	<lang>*</lang>
+	<BuildNo>9835550</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<CGEMdiWorkspace type="e">
+			<stubList type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</stubList>
+			<isLoadOnDemand type="a">0</isLoadOnDemand>
+			<myViewsWithID type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">32</size>
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">104</m_nLeft>
+								<m_nTop type="a">104</m_nTop>
+								<m_nRight type="a">938</m_nRight>
+								<m_nBottom type="a">410</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IUCDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\AnalysisPkg.sbs</_hfilename>
+								<_hsubsystem type="a">AnalysisPkg</_hsubsystem>
+								<_hname type="a">Principal Uses</_hname>
+								<_hid type="a">GUID cca48126-9ba9-4bd2-88fe-22c9605a7f05</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">797 246 </_DownRight>
+						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">410</m_nLeft>
+								<m_nTop type="a">261</m_nTop>
+								<m_nRight type="a">615</m_nRight>
+								<m_nBottom type="a">348</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Animated Animated Scenario cancelling products</_hname>
+								<_hid type="a">GUID 4d0aff0c-e790-4dfc-b22c-07f1dda11671</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 4732 </_UpLeft>
+						<_DownRight type="a">168 4739 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">216</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">288</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Animated Animated Scenario selecting products</_hname>
+								<_hid type="a">GUID 51bdb765-76ae-41b8-a0dc-7f90de61e067</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 4744 </_UpLeft>
+						<_DownRight type="a">168 4752 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">820</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">1025</m_nRight>
+								<m_nBottom type="a">72</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Animated Scenario cancelling products</_hname>
+								<_hid type="a">GUID 61fa5ed9-507d-4d6d-8883-5f904c56b63b</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 1 </_UpLeft>
+						<_DownRight type="a">168 9 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">410</m_nLeft>
+								<m_nTop type="a">87</m_nTop>
+								<m_nRight type="a">615</m_nRight>
+								<m_nBottom type="a">174</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Animated Scenario cancelling products_0</_hname>
+								<_hid type="a">GUID dca7fccb-4a1a-4d5a-a0b3-4051cf2df8b4</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 3509 </_UpLeft>
+						<_DownRight type="a">389 3525 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">820</m_nLeft>
+								<m_nTop type="a">144</m_nTop>
+								<m_nRight type="a">1025</m_nRight>
+								<m_nBottom type="a">216</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Animated Scenario selecting products</_hname>
+								<_hid type="a">GUID 13ae7e22-367b-4b4e-823d-093682e0fcbf</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 3 </_UpLeft>
+						<_DownRight type="a">346 19 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">820</m_nLeft>
+								<m_nTop type="a">360</m_nTop>
+								<m_nRight type="a">1025</m_nRight>
+								<m_nBottom type="a">432</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Scenario cancelling products</_hname>
+								<_hid type="a">GUID 39c626d5-5f62-4c54-b383-6d0553105d6a</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 1 </_UpLeft>
+						<_DownRight type="a">168 9 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">288</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">360</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Scenario cancelling products_0</_hname>
+								<_hid type="a">GUID 154a0359-1d2b-497a-b777-6fcc44fea02b</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 4724 </_UpLeft>
+						<_DownRight type="a">168 4732 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">410</m_nLeft>
+								<m_nTop type="a">182</m_nTop>
+								<m_nRight type="a">615</m_nRight>
+								<m_nBottom type="a">261</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Scenario generating a ticket</_hname>
+								<_hid type="a">GUID f3ebf994-88db-4ccd-9878-337687c35813</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 4535 </_UpLeft>
+						<_DownRight type="a">168 4536 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">410</m_nLeft>
+								<m_nTop type="a">348</m_nTop>
+								<m_nRight type="a">615</m_nRight>
+								<m_nBottom type="a">435</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Animated Scenario selecting products_0</_hname>
+								<_hid type="a">GUID c8919b85-3d74-48ba-bb25-6bef1b5dbdfe</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 4752 </_UpLeft>
+						<_DownRight type="a">168 4759 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">205</m_nLeft>
+								<m_nTop type="a">261</m_nTop>
+								<m_nRight type="a">410</m_nRight>
+								<m_nBottom type="a">348</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">CashRegister Overview</_hname>
+								<_hid type="a">GUID 73a76fec-aed2-4055-8868-1477382cf894</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">22 17 </_UpLeft>
+						<_DownRight type="a">187 44 </_DownRight>
+						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">87</m_nTop>
+								<m_nRight type="a">205</m_nRight>
+								<m_nBottom type="a">174</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hclass type="a">CashRegister</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 79aeecaf-42cd-4d01-b536-a9e2e052346d</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 57 </_UpLeft>
+						<_DownRight type="a">181 86 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">72</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hclass type="a">CashRegister</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 79aeecaf-42cd-4d01-b536-a9e2e052346d</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 209 </_UpLeft>
+						<_DownRight type="a">168 221 </_DownRight>
+						<_instanceName type="a">CashRegister</_instanceName>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">3</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">463</m_nRight>
+								<m_nBottom type="a">492</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hclass type="a">CashRegister</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 79aeecaf-42cd-4d01-b536-a9e2e052346d</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1302 379 </_DownRight>
+						<_instanceName type="a">TesterBuilder[0]-&gt;itsCashRegister</_instanceName>
+						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">205</m_nLeft>
+								<m_nTop type="a">174</m_nTop>
+								<m_nRight type="a">410</m_nRight>
+								<m_nBottom type="a">261</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Product Overview</_hname>
+								<_hid type="a">GUID 993180df-ef2e-489b-8ef0-9b4b62348012</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 30 </_UpLeft>
+						<_DownRight type="a">168 57 </_DownRight>
+						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">205</m_nLeft>
+								<m_nTop type="a">87</m_nTop>
+								<m_nRight type="a">410</m_nRight>
+								<m_nBottom type="a">174</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">ProductDatabase Overview</_hname>
+								<_hid type="a">GUID 35bfa7a6-71ae-4dec-85c3-a82e26ade8e5</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 30 </_UpLeft>
+						<_DownRight type="a">168 57 </_DownRight>
+						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">52</m_nLeft>
+								<m_nTop type="a">52</m_nTop>
+								<m_nRight type="a">927</m_nRight>
+								<m_nBottom type="a">423</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Scenario cancelling products</_hname>
+								<_hid type="a">GUID 0fd2343a-c011-4bb4-9a7a-04b32f1bf512</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 80 </_UpLeft>
+						<_DownRight type="a">838 371 </_DownRight>
+						<m_nDiagramIndex type="a">17</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">360</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">432</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Scenario generating a ticket</_hname>
+								<_hid type="a">GUID 06476d41-cd7e-4783-aac7-b192ebdea7f3</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 33 </_UpLeft>
+						<_DownRight type="a">168 41 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">875</m_nRight>
+								<m_nBottom type="a">371</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Scenario manually entering a barcode</_hname>
+								<_hid type="a">GUID 8876a2a1-8ba2-4202-8f30-fdea5c9d1e28</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">838 291 </_DownRight>
+						<m_nDiagramIndex type="a">16</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">820</m_nLeft>
+								<m_nTop type="a">72</m_nTop>
+								<m_nRight type="a">1025</m_nRight>
+								<m_nBottom type="a">144</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IMSC</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\CashRegisterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">CashRegisterPkg</_hsubsystem>
+								<_hname type="a">Scenario selecting products</_hname>
+								<_hid type="a">GUID 2ad0de0d-6181-41d5-afb1-af998c7c9379</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 11 </_UpLeft>
+						<_DownRight type="a">198 20 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">205</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">410</m_nRight>
+								<m_nBottom type="a">87</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hname type="a">Domains Overview</_hname>
+								<_hid type="a">GUID 31dc543a-0236-445d-927f-a67f617179b0</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 10 </_UpLeft>
+						<_DownRight type="a">243 49 </_DownRight>
+						<m_nDiagramIndex type="a">15</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">116</m_nLeft>
+								<m_nTop type="a">34</m_nTop>
+								<m_nRight type="a">701</m_nRight>
+								<m_nBottom type="a">482</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hname type="a">Tester Builder Overview</_hname>
+								<_hid type="a">GUID 60b0c93a-71bc-41e0-b22b-e30ee8f2db0f</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">11 28 </_UpLeft>
+						<_DownRight type="a">528 394 </_DownRight>
+						<m_nDiagramIndex type="a">13</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">205</m_nLeft>
+								<m_nTop type="a">348</m_nTop>
+								<m_nRight type="a">410</m_nRight>
+								<m_nBottom type="a">435</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hname type="a">Tester Overview</_hname>
+								<_hid type="a">GUID 4d942892-f6b4-42ac-8c99-6cd00b95c499</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 30 </_UpLeft>
+						<_DownRight type="a">170 57 </_DownRight>
+						<m_nDiagramIndex type="a">12</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">348</m_nTop>
+								<m_nRight type="a">205</m_nRight>
+								<m_nBottom type="a">435</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID 5c4d226d-a014-456b-bc39-d9dd293b7187</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 320 </_UpLeft>
+						<_DownRight type="a">168 347 </_DownRight>
+						<m_nDiagramIndex type="a">10</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">174</m_nTop>
+								<m_nRight type="a">205</m_nRight>
+								<m_nBottom type="a">261</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram.ROOT.scenarioAddingProducts</_hname>
+								<_hid type="a">GUID 7a61e8b9-2cba-41b9-8200-aa9512a984d2</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 80 </_UpLeft>
+						<_DownRight type="a">168 107 </_DownRight>
+						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">442</m_nLeft>
+								<m_nTop type="a">12</m_nTop>
+								<m_nRight type="a">985</m_nRight>
+								<m_nBottom type="a">515</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram.ROOT.scenarioAddingProducts</_hname>
+								<_hid type="a">GUID 7a61e8b9-2cba-41b9-8200-aa9512a984d2</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 105 </_UpLeft>
+						<_DownRight type="a">506 548 </_DownRight>
+						<_instanceName type="a">TesterBuilder[0]-&gt;itsTester</_instanceName>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">144</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">216</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram.ROOT.scenarioCancellingProducts</_hname>
+								<_hid type="a">GUID 65a53d8b-927c-42c3-b05a-e008a8a3fa8f</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 50 </_UpLeft>
+						<_DownRight type="a">168 62 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+								<m_nLeft type="a">32</m_nLeft>
+								<m_nTop type="a">31</m_nTop>
+								<m_nRight type="a">929</m_nRight>
+								<m_nBottom type="a">460</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram.ROOT.scenarioCancellingProducts</_hname>
+								<_hid type="a">GUID 65a53d8b-927c-42c3-b05a-e008a8a3fa8f</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 70 </_UpLeft>
+						<_DownRight type="a">860 439 </_DownRight>
+						<_instanceName type="a">TesterBuilder[0]-&gt;itsTester</_instanceName>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">615</m_nLeft>
+								<m_nTop type="a">72</m_nTop>
+								<m_nRight type="a">820</m_nRight>
+								<m_nBottom type="a">144</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">0</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram.ROOT.scenarioGeneratingTicket</_hname>
+								<_hid type="a">GUID 1bcb1ef9-e8b8-4836-8433-0844b6396900</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">168 12 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">0</m_nLeft>
+								<m_nTop type="a">261</m_nTop>
+								<m_nRight type="a">205</m_nRight>
+								<m_nBottom type="a">348</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID c54007d4-c1dd-4c93-8a39-edf6a452de2e</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 78 </_UpLeft>
+						<_DownRight type="a">168 105 </_DownRight>
+						<m_nDiagramIndex type="a">11</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">393</m_nLeft>
+								<m_nTop type="a">0</m_nTop>
+								<m_nRight type="a">1025</m_nRight>
+								<m_nBottom type="a">544</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
+								<_hfilename type="a">.\CashRegister_rpy\TesterPkg.sbs</_hfilename>
+								<_hsubsystem type="a">HardwarePkg::TesterPkg</_hsubsystem>
+								<_hclass type="a">Tester</_hclass>
+								<_hname type="a">StatechartDiagram</_hname>
+								<_hid type="a">GUID c54007d4-c1dd-4c93-8a39-edf6a452de2e</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 57 </_UpLeft>
+						<_DownRight type="a">595 541 </_DownRight>
+						<_instanceName type="a">TesterBuilder[0]-&gt;itsTester</_instanceName>
+						<m_nDiagramIndex type="a">18</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">78</m_nLeft>
+								<m_nTop type="a">78</m_nTop>
+								<m_nRight type="a">1031</m_nRight>
+								<m_nBottom type="a">294</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">$OMROOT\Profiles\TestingProfile\TestingProfile_rpy\TestingProfile.sbs</_hfilename>
+								<_hsubsystem type="a">TestingProfile</_hsubsystem>
+								<_hname type="a">TestingProfileStructure</_hname>
+								<_hid type="a">GUID a1d02fcd-2462-454d-8a7b-eda27960dc09</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 50 </_UpLeft>
+						<_DownRight type="a">916 206 </_DownRight>
+						<m_nDiagramIndex type="a">14</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+				</IRPYRawContainer>
+			</myViewsWithID>
+			<_fullName type="a">E:\%D1%A7%CF%B0\Exercise\Rhapsody\%CA%D5%D2%F8%BB%FA%CA%B5%C0%FD\CashRegister 4part\CashRegister</_fullName>
+			<_selectedPerspective type="a">Advanced</_selectedPerspective>
+			<m_SearchScopeList type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</m_SearchScopeList>
+			<bUsingBrowserCustomView type="a">1</bUsingBrowserCustomView>
+			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
+			<liCustomViewIDs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</liCustomViewIDs>
+			<mapOslcRmCollections type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</mapOslcRmCollections>
+			<favoritesItem type="e">
+				<generation type="a">0</generation>
+				<name type="a">%CA%D5%B2%D8%BC%D0</name>
+				<idOrFolder type="a">folder</idOrFolder>
+			</favoritesItem>
+			
+		</CGEMdiWorkspace>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

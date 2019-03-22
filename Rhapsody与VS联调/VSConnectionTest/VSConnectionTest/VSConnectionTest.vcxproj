@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2B68F8B-EF4B-4669-81F5-20400C7AC13B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>VSConnectionTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;OMANIMATOR;OM_REUSABLE_STATECHART_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\VSConnectionTest\VSConnectionTest;C:\Rhapsody8.3.1\Share;C:\Rhapsody8.3.1\Share\LangCpp;C:\Rhapsody8.3.1\Share\LangCpp\oxf;C:\Rhapsody8.3.1\Share\LangCpp\aom;C:\Rhapsody8.3.1\Share\LangCpp\tom;C:\Rhapsody8.3.1\Share\LangCpp\osconfig\WIN32;C:\Rhapsody8.3.1\Share\LangCpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Rhapsody8.3.1\Share\LangCpp\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wsock32.lib;MSVC10x86aomanim.lib;MSVC10x86oxfinst.lib;MSVC10x86omComAppl.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccelerRometerClass.cpp" />
+    <ClCompile Include="AccelerRometerPkg.cpp" />
+    <ClCompile Include="BaseClassPkg.cpp" />
+    <ClCompile Include="MainDefaultComponent.cpp" />
+    <ClCompile Include="TestObjectClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccelerRometerClass.h" />
+    <ClInclude Include="AccelerRometerPkg.h" />
+    <ClInclude Include="BaseClassPkg.h" />
+    <ClInclude Include="MainDefaultComponent.h" />
+    <ClInclude Include="TestObjectClass.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RhapsodyConfigurationGuid="GUID 09a7e854-be90-4741-be24-fdbc42b6d34b" RhapsodyConfigurationFullName="TestClass1.DefaultComponent.VSTest" RhapsodyProjectPath="..\..\TestClass1\TestClass1.rpyx" RhapsodyGeneratedFiles="accelerrometerclass.cpp;accelerrometerclass.h;accelerrometerpkg.cpp;accelerrometerpkg.h;baseclasspkg.cpp;baseclasspkg.h;maindefaultcomponent.cpp;maindefaultcomponent.h;testobjectclass.cpp;testobjectclass.h" AdditionalDependencies="wsock32.lib MSVC10x86aomanim.lib MSVC10x86oxfinst.lib MSVC10x86omComAppl.lib winmm.lib" AdditionalIncludeDirectories="E:\学习\研究生课题任务\作战流程仿真\顶层建模\2019.1.14\测试\VSConnectionTest\VSConnectionTest;C:\Rhapsody8.3.1\Share;C:\Rhapsody8.3.1\Share\LangCpp;C:\Rhapsody8.3.1\Share\LangCpp\oxf;C:\Rhapsody8.3.1\Share\LangCpp\aom;C:\Rhapsody8.3.1\Share\LangCpp\tom;C:\Rhapsody8.3.1\Share\LangCpp\osconfig\WIN32;C:\Rhapsody8.3.1\Share\LangCpp" AdditionalLibraryDirectories="C:\Rhapsody8.3.1\Share\LangCpp\lib" PreprocessorDefinitions="_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;OMANIMATOR;;&quot;OM_REUSABLE_STATECHART_IMPLEMENTATION&quot;" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
