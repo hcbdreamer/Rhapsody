@@ -1,0 +1,158 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ IComponent 
+	- _id = GUID d799724c-01e6-41a2-b015-7446aab63c4b;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 1.20.2018::9:9:2;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 0f1c58d2-3cf7-4930-adb2-77743787d7fa;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 1.20.2018::8:41:4;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 26674393-6ab5-4ed1-928c-c3faba0e62f1;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 26674393-6ab5-4ed1-928c-c3faba0e62f1;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 1.20.2018::9:9:2;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 69d6a6a7-c425-4597-b109-475c792c2601;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Exercise\\Interfacetest2\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID e85fc90b-931d-4e9b-8808-7e753d333126;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Exercise\\Interfacetest2\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "HardwarePkg.sbs";
+					- _subsystem = "HardwarePkg";
+					- _class = "";
+					- _name = "Builder";
+					- _id = GUID 63397d35-3b3b-4f4f-a3d6-cccac1a7e5f9;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 23bf3499-e49e-46b5-87e8-7840bde3ff27;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.20.2018::9:9:2;
+			- strongCGTime = 1.20.2018::9:9:2;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "mainPkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "mainPkg";
+			- _id = GUID b92d0407-794a-46e9-bd3c-b3d8eb0a0991;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Settings\\UMLPerspectives\\UMLPerspectives.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "UMLPerspectives";
+			- _id = GUID d24d9192-bc4f-48a2-a4e1-fdaebbdfa6b6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "HardwarePkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "HardwarePkg";
+			- _id = GUID a1f9a14f-115d-4548-86d7-e6332194da50;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "InterfacePkg.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "InterfacePkg";
+			- _id = GUID 1b282770-18de-4bca-b5c9-7296eacd6fc6;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 1.20.2018::9:9:2;
+	- strongCGTime = 1.20.2018::8:42:36;
+}
+

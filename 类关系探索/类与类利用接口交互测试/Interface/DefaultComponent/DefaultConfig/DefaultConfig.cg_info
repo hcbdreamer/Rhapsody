@@ -1,0 +1,114 @@
+I-Logix-RPY-Archive version 8.13.0 * 9794446
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 26;
+	- value = "DefaultComponent\\DefaultConfig\\Builder.cpp" 1.20.2018::7:52:15
+	"DefaultComponent\\DefaultConfig\\Builder.h" 1.20.2018::7:52:15
+	"DefaultComponent\\DefaultConfig\\HardwarePkg.cpp" 1.19.2018::14:23:52
+	"DefaultComponent\\DefaultConfig\\HardwarePkg.h" 1.19.2018::14:23:52
+	"DefaultComponent\\DefaultConfig\\IOut.cpp" 1.19.2018::14:50:6
+	"DefaultComponent\\DefaultConfig\\IOut.h" 1.19.2018::14:50:6
+	"DefaultComponent\\DefaultConfig\\InterfacePkg.cpp" 1.19.2018::14:23:52
+	"DefaultComponent\\DefaultConfig\\InterfacePkg.h" 1.19.2018::14:23:52
+	"DefaultComponent\\DefaultConfig\\Test2Pkg.cpp" 1.19.2018::14:33:28
+	"DefaultComponent\\DefaultConfig\\Test2Pkg.h" 1.19.2018::14:33:28
+	"DefaultComponent\\DefaultConfig\\TestPkg.cpp" 1.19.2018::15:7:33
+	"DefaultComponent\\DefaultConfig\\TestPkg.h" 1.19.2018::15:7:33
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 1.19.2018::14:7:24
+	"DefaultComponent\\DefaultConfig\\class_0.h" 1.19.2018::14:7:24
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 1.19.2018::14:33:31
+	"DefaultComponent\\DefaultConfig\\class_1.h" 1.19.2018::14:33:31
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 1.19.2018::14:8:40
+	"DefaultComponent\\DefaultConfig\\class_2.h" 1.19.2018::14:8:40
+	"DefaultComponent\\DefaultConfig\\class_4.cpp" 1.19.2018::14:9:49
+	"DefaultComponent\\DefaultConfig\\class_4.h" 1.19.2018::14:9:49
+	"DefaultComponent\\DefaultConfig\\interface_0.cpp" 1.19.2018::14:7:39
+	"DefaultComponent\\DefaultConfig\\interface_0.h" 1.19.2018::14:7:39
+	"DefaultComponent\\DefaultConfig\\test.cpp" 1.20.2018::9:4:3
+	"DefaultComponent\\DefaultConfig\\test.h" 1.20.2018::9:4:3
+	"DefaultComponent\\DefaultConfig\\test1.cpp" 1.20.2018::7:56:53
+	"DefaultComponent\\DefaultConfig\\test1.h" 1.20.2018::7:56:44
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 4;
+	- value = "GUID 0cc77a79-a1c2-4c86-945f-7a23b022527b" "GUID 89998bf8-1353-4566-b520-d4daadfa7853"
+	"GUID 36d1fc33-131e-4719-85a5-c8d085878221" "GUID 89998bf8-1353-4566-b520-d4daadfa7853"
+	"GUID ab89076b-37eb-42b3-b1e0-fccde3a2c1c4" "GUID 89998bf8-1353-4566-b520-d4daadfa7853"
+	"GUID df557855-48d4-4743-a6be-1698e70366af" "GUID 89998bf8-1353-4566-b520-d4daadfa7853"
+	
+}
+- size = 8;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "HardwarePkg";
+	- _class = "";
+	- _name = "Builder";
+	- _id = GUID 064f6828-3eb2-4c1c-8875-9f543147608f;
+}
+- genTime = 1.20.2018::8:59:54;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "InterfacePkg";
+	- _id = GUID ab89076b-37eb-42b3-b1e0-fccde3a2c1c4;
+}
+- genTime = 1.20.2018::8:59:54;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "HardwarePkg";
+	- _class = "";
+	- _name = "test1";
+	- _id = GUID de03e7ee-a683-461b-9c68-336ece65fa82;
+}
+- genTime = 1.20.2018::8:59:54;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "HardwarePkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "HardwarePkg";
+	- _id = GUID df557855-48d4-4743-a6be-1698e70366af;
+}
+- genTime = 1.20.2018::8:59:8;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 24502af3-9abe-468d-b23b-9faebe7118ea;
+}
+- genTime = 1.20.2018::8:59:54;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "TestPkg.sbs";
+	- _subsystem = "TestPkg";
+	- _class = "";
+	- _name = "test";
+	- _id = GUID 1b42f409-bb89-4713-a972-33f9f1018c3c;
+}
+- genTime = 1.20.2018::9:10:37;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "InterfacePkg.sbs";
+	- _subsystem = "InterfacePkg";
+	- _class = "";
+	- _name = "IOut";
+	- _id = GUID c96c9631-22a3-45b4-aeb1-14dc49782d65;
+}
+- genTime = 1.20.2018::8:59:54;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "TestPkg.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "TestPkg";
+	- _id = GUID 0cc77a79-a1c2-4c86-945f-7a23b022527b;
+}
+- genTime = 1.20.2018::8:59:54;
+

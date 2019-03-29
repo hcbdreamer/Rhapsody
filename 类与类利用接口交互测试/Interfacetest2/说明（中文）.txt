@@ -1,9 +1,0 @@
-操作：运行后，先在test实例生成事件evStart1,即开始运行start1(),通过input接口，发送消息，让main实例开始执行in(),给number赋值。
-然后在main实例生成事件evstart(),运行start(),start函数通过display接口发送消息给test实例执行show()函数,显示number值。
-
-注：执行过程，无时序图，用状态图。（发现对同一个类，用时序图不生成代码）
-2018.1.23修改
-在Iinput接口中添加reception(接收）函数evstart,即可通过在test实例中通过发送evstart消息给input接口，而驱动main实例开始执行in()。
-注：1.同一个事件名在不同包内是可以复用的，即test类中跟main类中都可以使用evstart事件，但是不会互相影响，经测试，确如此。
-但是这里如果都用evstart，会有警告，虽然不影响程序执行。此处修正为test类中使用evstart1事件触发，即无影响。
-    2.时序图中不会显示实例通过接口发送消息的过程，通常是显示发送消息给系统边界。

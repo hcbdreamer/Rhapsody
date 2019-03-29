@@ -1,0 +1,110 @@
+I-Logix-RPY-Archive version 8.13.0 C++ 9794446
+{ ISubsystem 
+	- _id = GUID d3cb377c-7fb2-4d22-b2d7-94b8f70c54ce;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 1.28.2018::14:43:41;
+	- _lastID = 1;
+	- weakCGTime = 1.28.2018::14:43:41;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID dd88cf76-123a-46c4-a318-919f59b779bd;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID dd88cf76-123a-46c4-a318-919f59b779bd;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7c03da29-f89e-4d4f-9ab9-1b719ef808ea;
+			- _myState = 8192;
+			- _name = "Hello";
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID 69b4f340-a7be-4e16-a285-516b1444df14;
+					- _myState = 2048;
+					- _name = "QLabel";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _modifiedTimeWeak = 1.28.2018::14:43:48;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+						- _subsystem = "QTProfile::Qt::QtGui";
+						- _class = "";
+						- _name = "QLabel";
+						- _id = GUID cc9890fa-ceb9-45e0-83fe-6594288d8a33;
+					}
+				}
+			}
+			- _modifiedTimeWeak = 1.28.2018::14:45:4;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID d7150cc2-e863-41d8-9a8b-18f460de61c1;
+			}
+			- _lastID = 1;
+			- weakCGTime = 1.28.2018::14:45:4;
+			- strongCGTime = 1.28.2018::14:43:13;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID 16b858d6-96a5-4b64-ad4b-66220abc99a5;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 1.28.2018::14:45:4;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "QLabel* label=new QLabel(\"hello world\");
+label->show();";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::8:0:0;
+}
+

@@ -1,9 +1,0 @@
-[Op Calls]
-[Events]
-Builder[0]->GEN(evS2())`Builder
-Builder[0]->GEN(evS1())`Builder
-Builder[0]->itsA->GEN(evStartA())`A
-Builder[0]->itsB->GEN(evStartB())`B
-B[0]->GEN(evStartB())`B
-A[0]->GEN(evStartA())`A
-[Breakpoints]

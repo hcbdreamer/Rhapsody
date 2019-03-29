@@ -1,0 +1,62 @@
+I-Logix-RPY-Archive version 8.15.0 * 9835550
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 10;
+	- value = "DefaultComponent\\DefaultConfig\\AccelerRometerClass.cpp" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\AccelerRometerClass.h" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\AccelerRometerPkg.cpp" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\AccelerRometerPkg.h" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\BaseClassPkg.cpp" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\BaseClassPkg.h" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\TestObjectClass.cpp" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\TestObjectClass.h" 1.14.2019::12:32:46
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 1.14.2019::12:29:26
+	"DefaultComponent\\DefaultConfig\\class_0.h" 1.14.2019::12:29:26
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 3;
+	- value = "GUID 2b88a3a3-194a-4531-aadc-0d5c92ca7897" "GUID 188fe911-db07-4d62-aa14-36e44be52d91"
+	"GUID 5d91cf05-bb05-425a-b478-fe14a7d5bc2b" "GUID 188fe911-db07-4d62-aa14-36e44be52d91"
+	"GUID 91f16462-e124-4354-8a7c-1bed7fc4cd50" "GUID 188fe911-db07-4d62-aa14-36e44be52d91"
+	
+}
+- size = 5;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\TestClass1_rpy\\AccelerRometerPkg.sbsx";
+	- _subsystem = "AccelerRometerPkg";
+	- _name = "AccelerRometerClass";
+	- _id = GUID 09ccc7aa-537c-43b2-aa27-a66d97dedc84;
+}
+- genTime = 1.14.2019::14:42:19;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\..\\BaseClassProject\\BaseClassProject_rpy\\BaseClassPkg.sbsx";
+	- _name = "BaseClassPkg";
+	- _id = GUID 5d91cf05-bb05-425a-b478-fe14a7d5bc2b;
+}
+- genTime = 1.14.2019::14:42:19;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\..\\BaseClassProject\\BaseClassProject_rpy\\BaseClassPkg.sbsx";
+	- _subsystem = "BaseClassPkg";
+	- _name = "TestObjectClass";
+	- _id = GUID 58250599-54d9-44b7-9d3b-1d828b817e19;
+}
+- genTime = 1.14.2019::14:42:19;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\TestClass1_rpy\\AccelerRometerPkg.sbsx";
+	- _name = "AccelerRometerPkg";
+	- _id = GUID 2b88a3a3-194a-4531-aadc-0d5c92ca7897;
+}
+- genTime = 1.14.2019::14:42:19;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\TestClass1_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 2258ea7f-f11c-46b8-ae0e-1394ef72a2c6;
+}
+- genTime = 1.14.2019::14:42:19;
+

@@ -1,0 +1,5 @@
+三个包，testPkg（test类）,InterfacePkg（Iout接口类）,HardwarePkg（test1基类）.
+testPkg与HardwarePkg两个包通过InterfacePkg交互；
+通过testPkg中test类由端口Out发送消息给HardwarePkg中的test1类（test1类实现了接口类），执行相应功能。
+注：实现基类的类中的接口合约一般是提供接口，之后选bahaviour(行为）选项即可实现接口。
+    若想对接受接口的类实现基类，选reversed(方向）即可实现该接口。

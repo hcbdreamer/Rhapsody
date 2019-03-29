@@ -1,9 +1,0 @@
-[Files]
-Names=UML Model
-
-[UML Model]
-Type=Rhapsody
-Cover1=UML Model
-Path2=..\StopWatch1.rpy
-Variable1Name=lg
-Variable1Value=C++

@@ -1,0 +1,90 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 927;
+				- m_nBottom = 367;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStructureDiagram";
+				- _filename = ".\\Sysmlsimulink_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "System";
+				- _name = "internal block diagram_0";
+				- _id = GUID f44b8743-414d-44ea-8dce-618565a44b24;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 805 245 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 26;
+				- m_nTop = 26;
+				- m_nRight = 901;
+				- m_nBottom = 341;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Model1";
+				- _id = GUID abc1c1a0-552c-4f6c-b0ff-ba033d9f8942;
+			}
+			- _UpLeft = 0 73 ;
+			- _DownRight = 1021 530 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+			- m_bIsActiveView = 1;
+		}
+	}
+	- _fullName = "C:\\Exercise\\Rhapsody\À\û\Ó\Ãsimulink\Ê\µ\À\ý\\Sysmlsimulink\\Sysmlsimulink";
+	- _selectedPerspective = "Advanced";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingBrowserCustomView = 1;
+	- bApplyOnDiagrams = 0;
+	- liCustomViewIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- mapOslcRmCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = ÊÕ²Ø¼Ð;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

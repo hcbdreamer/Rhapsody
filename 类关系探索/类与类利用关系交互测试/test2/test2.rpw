@@ -1,0 +1,119 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 78;
+				- m_nTop = 78;
+				- m_nRight = 979;
+				- m_nBottom = 386;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = ".\\test2_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Builder";
+				- _name = "StatechartDiagram";
+				- _id = GUID 5d779268-c94f-4e5c-81a9-f85d52a7af26;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 864 248 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 1005;
+				- m_nBottom = 381;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = ".\\test2_rpy\\Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Builder";
+				- _name = "StatechartDiagram";
+				- _id = GUID 5d779268-c94f-4e5c-81a9-f85d52a7af26;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 864 217 ;
+			- _instanceName = "Builder[0]";
+			- m_nDiagramIndex = 2;
+			- m_bIsActiveView = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 26;
+				- m_nTop = 26;
+				- m_nRight = 927;
+				- m_nBottom = 334;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _name = "Model1";
+				- _id = GUID 7742bb61-15b3-43b8-a07f-87d7ad69c25e;
+			}
+			- _UpLeft = 0 14 ;
+			- _DownRight = 1147 381 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+			- m_bIsActiveView = 1;
+		}
+	}
+	- _fullName = "C:\\Exercise\\\À\à\Ó\ë\À\à\À\û\Ó\Ã\¹\Ø\Ï\µ\½\»\»\¥\²\â\Ê\Ô\\test2\\test2";
+	- _selectedPerspective = "Advanced";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingBrowserCustomView = 1;
+	- bApplyOnDiagrams = 0;
+	- liCustomViewIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- mapOslcRmCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = ÊÕ²Ø¼Ð;
+			idOrFolder = folder;
+		}
+	}
+
+}
+

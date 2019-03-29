@@ -1,0 +1,69 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 17;
+	- value = "DefaultComponent\\DefaultConfig\\Builder.cpp" 5.5.2018::6:51:46
+	"DefaultComponent\\DefaultConfig\\Builder.h" 5.5.2018::6:51:46
+	"DefaultComponent\\DefaultConfig\\Default.cpp" 5.5.2018::6:50:22
+	"DefaultComponent\\DefaultConfig\\Default.h" 5.5.2018::6:50:22
+	"DefaultComponent\\DefaultConfig\\MainDefaultComponent.cpp" 1.26.2018::13:0:12
+	"DefaultComponent\\DefaultConfig\\class_0.cpp" 1.26.2018::12:39:46
+	"DefaultComponent\\DefaultConfig\\class_0.h" 1.26.2018::12:39:46
+	"DefaultComponent\\DefaultConfig\\class_1.cpp" 1.26.2018::12:39:52
+	"DefaultComponent\\DefaultConfig\\class_1.h" 1.26.2018::12:39:52
+	"DefaultComponent\\DefaultConfig\\class_2.cpp" 1.26.2018::12:52:42
+	"DefaultComponent\\DefaultConfig\\class_2.h" 1.26.2018::12:52:42
+	"DefaultComponent\\DefaultConfig\\class_3.cpp" 1.26.2018::13:2:9
+	"DefaultComponent\\DefaultConfig\\class_3.h" 1.26.2018::13:2:9
+	"DefaultComponent\\DefaultConfig\\man.cpp" 5.5.2018::6:50:33
+	"DefaultComponent\\DefaultConfig\\man.h" 5.5.2018::6:50:33
+	"DefaultComponent\\DefaultConfig\\woman.cpp" 1.26.2018::13:3:23
+	"DefaultComponent\\DefaultConfig\\woman.h" 1.26.2018::13:3:23
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 2;
+	- value = "GUID 6634719a-3025-4acb-b5c2-5003e73d22dd" "GUID 47bbf09d-2d22-452f-9467-a55a47abc429"
+	"GUID 6f1704ea-32c2-401c-a0bf-b17b6a096a98" "GUID 47bbf09d-2d22-452f-9467-a55a47abc429"
+	
+}
+- size = 5;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\test_rpy\\Default.sbs";
+	- _name = "Default";
+	- _id = GUID 6634719a-3025-4acb-b5c2-5003e73d22dd;
+}
+- genTime = 5.5.2018::6:50:22;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\test_rpy\\DefaultComponent.cmp";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 016a6425-83e8-4066-abc5-48fd8643d5ba;
+}
+- genTime = 1.26.2018::13:6:41;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "man";
+	- _id = GUID 7edb6ee4-b3a1-41dc-8c14-7df38e098c6c;
+}
+- genTime = 5.5.2018::6:50:33;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "woman";
+	- _id = GUID 6ea09bf2-1829-4273-a826-8519a18733a1;
+}
+- genTime = 1.26.2018::13:5:10;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\test_rpy\\Default.sbs";
+	- _subsystem = "Default";
+	- _name = "Builder";
+	- _id = GUID e6be3fff-5803-446f-8903-620e34a9dbef;
+}
+- genTime = 5.5.2018::6:51:46;
+

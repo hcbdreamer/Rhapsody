@@ -1,8 +1,0 @@
-[Op Calls]
-[Events]
-builder[0]->itsButton->GEN(evRelease())`Button
-builder[0]->itsButton->GEN(evPress())`Button
-Button->GEN(evRelease())`Default::Button
-Button->GEN(evPress())`Default::Button
-Timer[0]->GEN(evStartStop())`Timer
-[Breakpoints]
