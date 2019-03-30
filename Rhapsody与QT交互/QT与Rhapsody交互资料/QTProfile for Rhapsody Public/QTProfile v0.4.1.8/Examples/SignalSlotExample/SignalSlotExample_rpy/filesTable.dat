@@ -1,0 +1,10 @@
+I-Logix-RPY-Archive version 8.6.0 * 4020511
+
+- filesTable = { IRPYRawContainer 
+	- size = 3;
+	- value = "SignalSlotExample.rpy" ""
+	"SignalSlotExample_rpy\\Default.sbs" "Default"
+	"SignalSlotExample_rpy\\SSExample.cmp" "SSExample"
+	
+}
+

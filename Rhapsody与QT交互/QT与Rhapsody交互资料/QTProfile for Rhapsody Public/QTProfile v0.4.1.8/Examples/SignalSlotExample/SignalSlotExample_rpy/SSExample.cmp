@@ -1,0 +1,588 @@
+I-Logix-RPY-Archive version 8.6.0 C++ 4020511
+{ IComponent 
+	- _id = GUID a01a3aa5-c933-4e23-8ce9-e46a2a385110;
+	- _myState = 139264;
+	- _name = "SSExample";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID c9e6d157-92c7-40c7-a97e-ada58fd8d431;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID fafc8cde-096a-483a-8f5f-01712b3d1e9d;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID fafc8cde-096a-483a-8f5f-01712b3d1e9d;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "CPP_CG";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Configuration";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Environment";
+										- _Value = "MSVC9";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "Microsoft,MicrosoftDLL,MSVC9,MSVC9DLL,VxWorks,VxWorks6diab,VxWorks6gnu,VxWorks6diab_RTP,VxWorks6gnu_RTP,Solaris2,Cygwin,MSStandardLibrary,MSVC9StandardLibrary,MicrosoftWinCE600,OseSfk,Linux,Solaris2GNU,QNXNeutrinoGCC, QNXNeutrinoMomentics,INTEGRITY,INTEGRITY5,IntegrityESTL,Integrity5ESTL,NucleusPLUS-PPC,WorkbenchManaged,WorkbenchManaged653,WorkbenchManaged_RTP";
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "MSVC";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "MakeFileContent";
+										- _Value = "
+############# Target type (Debug/Release) ##################
+############################################################
+CPPCompileDebug=$OMCPPCompileDebug
+CPPCompileRelease=$OMCPPCompileRelease
+LinkDebug=$OMLinkDebug
+LinkRelease=$OMLinkRelease
+BuildSet=$OMBuildSet
+SUBSYSTEM=$OMSubSystem
+RPFrameWorkDll=$OMRPFrameWorkDll
+SimulinkLibName=$SimulinkLibName
+
+ConfigurationCPPCompileSwitches=$OMReusableStatechartSwitches $OMConfigurationCPPCompileSwitches $OMSDLCompileSwitches $OMDDSFileCPPCompileSwitches
+
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+ConfigurationCPPCompileSwitches=$(ConfigurationCPPCompileSwitches) /D \"FRAMEWORK_DLL\"
+!ENDIF
+
+################### Compilation flags ######################
+############################################################
+INCLUDE_QUALIFIER=/I
+DEFINE_QUALIFIER=/D
+LIB_PREFIX=$LibPrefix
+
+CRT_FLAGS=$DefinedSymbols
+ENABLE_EH=/EHa
+
+WINMM_LIB=winmm.lib
+
+################### Commands definition #########################
+#################################################################
+RMDIR = rmdir
+LIB_CMD=link.exe -lib
+LINK_CMD=link.exe
+LIB_FLAGS=$OMConfigurationLinkSwitches
+LINK_FLAGS=$OMConfigurationLinkSwitches $(SUBSYSTEM) /MACHINE:$CPU 
+
+############### Generated macros #################
+##################################################
+$OMContextMacros
+
+OBJ_DIR=$OMObjectsDir
+
+!IF \"$(OBJ_DIR)\"!=\"\"
+CREATE_OBJ_DIR=if not exist $(OBJ_DIR) mkdir $(OBJ_DIR)
+CLEAN_OBJ_DIR= if exist $(OBJ_DIR) $(RMDIR) $(OBJ_DIR)
+!ELSE
+CREATE_OBJ_DIR=
+CLEAN_OBJ_DIR=
+!ENDIF
+
+######################## Predefined macros ############################
+#######################################################################
+!IF \"$(OBJS)\" != \"\"
+$(OBJS) : $(INST_LIBS) $(OXF_LIBS)
+!ENDIF
+
+BUILD_TYPE=debug
+!IF \"$(BuildSet)\"==\"Release\"
+BUILD_TYPE=release
+!ENDIF
+
+
+
+LIB_POSTFIX=
+!IF \"$(BuildSet)\"==\"Release\"
+LIB_POSTFIX=R
+!ENDIF
+
+!IF \"$(TARGET_TYPE)\" == \"Executable\"
+LinkDebug=$(LinkDebug) /DEBUG
+LinkRelease=$(LinkRelease) /OPT:NOREF
+!ELSEIF \"$(TARGET_TYPE)\" == \"Library\"
+LinkDebug=$(LinkDebug)
+!ENDIF
+
+
+!IF \"$(INSTRUMENTATION)\" == \"Animation\"
+INST_FLAGS=/D \"OMANIMATOR\"
+DEFINE_FLAGS=OMANIMATOR
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+INST_INCLUDES_PATH=$(OMROOT)\\LangCpp\\aom $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS= 
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfanimdll$(LIB_POSTFIX)$(LIB_EXT) 
+INST_INCLUDES_PATH=
+!ELSE
+INST_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomanim$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsiminst$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"Tracing\"
+INST_FLAGS=/D \"OMTRACER\"
+DEFINE_FLAGS=OMTRACER
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+INST_INCLUDES_PATH=$(OMROOT)\\LangCpp\\aom $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS=
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxftracedll$(LIB_POSTFIX)$(LIB_EXT) 
+!ELSE
+INST_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)tomtrace$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomtrace$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsiminst$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"None\" 
+DEFINE_FLAGS=
+INST_FLAGS=
+INST_INCLUDES=
+INST_INCLUDES_PATH=
+INST_LIBS=
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfdll$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsim$(LIB_POSTFIX)$(LIB_EXT)
+!ELSE
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxf$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsim$(LIB_POSTFIX)$(LIB_EXT)
+!ENDIF
+SOCK_LIB=
+
+!ELSE
+!ERROR An invalid Instrumentation $(INSTRUMENTATION) is specified.
+!ENDIF
+
+
+
+################## Generated dependencies ########################
+##################################################################
+$OMContextDependencies
+
+$OMFileObjPath : $OMMainImplementationFile $(OBJS) 
+	$(CPP) $(ConfigurationCPPCompileSwitches) /Fo\"$OMFileObjPath\" $OMMainImplementationFile
+
+########################## Linking instructions ###############################
+###############################################################################
+$(TARGET_NAME).pro:
+	-copy ..\\..\\gui\\*.ui .
+	qmake -project -o $@ 
+	@echo DEFINES += $(DEFINE_FLAGS) _CRT_SECURE_NO_WARNINGS _AFXDLL WIN32 _MBCS _WINDOWS >> $@
+	@echo CONFIG += warn_off >> $@
+	@echo CONFIG += console >> $@
+	@echo LIBS += $(LIBS) $(INST_LIBS) $(OXF_LIBS) $(SOCK_LIB) $(WINMM_LIB) >> $@
+	@echo INCLUDEPATH += $(OMROOT)\\LangCpp $(OMROOT)\\LangCpp\\oxf $(OMROOT)/LangCpp/osconfig/WIN32 $(INST_INCLUDES_PATH) >> $@
+
+
+Makefile:
+	qmake
+
+$(TARGET_NAME)$(EXE_EXT): $(TARGET_NAME).pro Makefile $OMMakefileName $OMModelLibs FORCE
+	@echo Creating $(TARGET_NAME)
+	nmake $(BUILD_TYPE)
+	copy $(BUILD_TYPE)\\$(TARGET_NAME)$(EXE_EXT) .
+
+FORCE:
+
+$(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) $OMMakefileName
+	@echo Building library $@
+	$(LIB_CMD) $(LIB_FLAGS) /out:$(TARGET_NAME)$(LIB_EXT) $(OBJS) $(ADDITIONAL_OBJS) $(LIBS)
+
+clean:
+	@echo Cleanup
+	$OMCleanOBJS
+	if exist $OMFileObjPath erase $OMFileObjPath
+	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
+	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
+	if exist $(TARGET_NAME)$(LIB_EXT) erase $(TARGET_NAME)$(LIB_EXT)
+	if exist $(TARGET_NAME).ilk erase $(TARGET_NAME).ilk
+	if exist $(TARGET_NAME)$(EXE_EXT) erase $(TARGET_NAME)$(EXE_EXT)
+	if exist $(TARGET_NAME)$(EXE_EXT).manifest erase $(TARGET_NAME)$(EXE_EXT).manifest
+	$(CLEAN_OBJ_DIR)
+	$OMCleanDdsIdlFiles
+";
+										- _Type = MultiLine;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "MSVC9";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "MakeFileContent";
+										- _Value = "
+############# Target type (Debug/Release) ##################
+############################################################
+CPPCompileDebug=$OMCPPCompileDebug
+CPPCompileRelease=$OMCPPCompileRelease
+LinkDebug=$OMLinkDebug
+LinkRelease=$OMLinkRelease
+BuildSet=$OMBuildSet
+SUBSYSTEM=$OMSubSystem
+COM=$OMCOM
+RPFrameWorkDll=$OMRPFrameWorkDll
+SimulinkLibName=$SimulinkLibName
+
+ConfigurationCPPCompileSwitches=$OMReusableStatechartSwitches $OMConfigurationCPPCompileSwitches $OMSDLCompileSwitches $OMDDSFileCPPCompileSwitches
+
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+ConfigurationCPPCompileSwitches=$(ConfigurationCPPCompileSwitches) /D \"FRAMEWORK_DLL\"
+!ENDIF
+
+!IF \"$(COM)\" == \"True\"
+SUBSYSTEM=/SUBSYSTEM:windows
+!ENDIF
+
+################### Compilation flags ######################
+############################################################
+INCLUDE_QUALIFIER=/I
+LIB_PREFIX=MSVC9
+
+CRT_FLAGS=/D \"_CRT_SECURE_NO_DEPRECATE\"
+ENABLE_EH=/EHa
+
+WINMM_LIB=winmm.lib
+
+################### Commands definition #########################
+#################################################################
+RMDIR = rmdir
+LIB_CMD=link.exe -lib
+LINK_CMD=link.exe
+LIB_FLAGS=$OMConfigurationLinkSwitches
+LINK_FLAGS=$OMConfigurationLinkSwitches $(SUBSYSTEM) /MACHINE:I386 
+
+############### Generated macros #################
+##################################################
+$OMContextMacros
+
+OBJ_DIR=$OMObjectsDir
+
+!IF \"$(OBJ_DIR)\"!=\"\"
+CREATE_OBJ_DIR=if not exist $(OBJ_DIR) mkdir $(OBJ_DIR)
+CLEAN_OBJ_DIR= if exist $(OBJ_DIR) $(RMDIR) $(OBJ_DIR)
+!ELSE
+CREATE_OBJ_DIR=
+CLEAN_OBJ_DIR=
+!ENDIF
+
+######################## Predefined macros ############################
+#######################################################################
+$(OBJS) : $(INST_LIBS) $(OXF_LIBS)
+
+BUILD_TYPE=debug
+!IF \"$(BuildSet)\"==\"Release\"
+BUILD_TYPE=release
+!ENDIF
+
+
+
+LIB_POSTFIX=
+!IF \"$(BuildSet)\"==\"Release\"
+LIB_POSTFIX=R
+!ENDIF
+
+!IF \"$(TARGET_TYPE)\" == \"Executable\"
+LinkDebug=$(LinkDebug) /DEBUG
+LinkRelease=$(LinkRelease) /OPT:NOREF
+!ELSEIF \"$(TARGET_TYPE)\" == \"Library\"
+LinkDebug=$(LinkDebug)
+!ENDIF
+
+
+!IF \"$(INSTRUMENTATION)\" == \"Animation\"
+INST_FLAGS=/D \"OMANIMATOR\"
+DEFINE_FLAGS=OMANIMATOR
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+INST_INCLUDES_PATH=$(OMROOT)\\LangCpp\\aom $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS= 
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfanimdll$(LIB_POSTFIX)$(LIB_EXT) 
+INST_INCLUDES_PATH=
+!ELSE
+INST_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomanim$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxsim$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"Tracing\"
+INST_FLAGS=/D \"OMTRACER\"
+DEFINE_FLAGS=OMTRACER
+INST_INCLUDES=/I $(OMROOT)\\LangCpp\\aom /I $(OMROOT)\\LangCpp\\tom
+INST_INCLUDES_PATH=$(OMROOT)\\LangCpp\\aom $(OMROOT)\\LangCpp\\tom
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+INST_LIBS=
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxftracedll$(LIB_POSTFIX)$(LIB_EXT) 
+!ELSE
+INST_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)tomtrace$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)aomtrace$(LIB_POSTFIX)$(LIB_EXT)
+OXF_LIBS= $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfinst$(LIB_POSTFIX)$(LIB_EXT) $(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)omComAppl$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=wsock32.lib
+
+!ELSEIF \"$(INSTRUMENTATION)\" == \"None\" 
+DEFINE_FLAGS=
+INST_FLAGS=
+INST_INCLUDES=
+INST_INCLUDES_PATH=
+INST_LIBS=
+!IF \"$(RPFrameWorkDll)\" == \"True\"
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxfdll$(LIB_POSTFIX)$(LIB_EXT)
+!ELSE
+OXF_LIBS=$(OMROOT)\\LangCpp\\lib\\$(LIB_PREFIX)oxf$(LIB_POSTFIX)$(LIB_EXT) $(SimulinkLibName)
+!ENDIF
+SOCK_LIB=
+
+!ELSE
+!ERROR An invalid Instrumentation $(INSTRUMENTATION) is specified.
+!ENDIF
+
+
+
+################## Generated dependencies ########################
+##################################################################
+$OMContextDependencies
+
+$OMFileObjPath : $OMMainImplementationFile $(OBJS) 
+	$(CPP) $(ConfigurationCPPCompileSwitches) /Fo\"$OMFileObjPath\" $OMMainImplementationFile
+
+########################## Linking instructions ###############################
+###############################################################################
+$(TARGET_NAME).pro:
+	-copy ..\\..\\gui\\*.ui .
+	qmake -project -o $@ 
+	@echo DEFINES += $(DEFINE_FLAGS) _CRT_SECURE_NO_WARNINGS _AFXDLL WIN32 _MBCS _WINDOWS >> $@
+	@echo CONFIG += warn_off >> $@
+	@echo CONFIG += console >> $@
+	@echo LIBS += $(LIBS) $(INST_LIBS) $(OXF_LIBS) $(SOCK_LIB) $(WINMM_LIB) >> $@
+	@echo INCLUDEPATH += $(OMROOT)\\LangCpp $(OMROOT)\\LangCpp\\oxf $(OMROOT)/LangCpp/osconfig/WIN32 $(INST_INCLUDES_PATH) >> $@
+
+
+Makefile:
+	qmake
+
+$(TARGET_NAME)$(EXE_EXT): $(TARGET_NAME).pro Makefile $OMMakefileName $OMModelLibs FORCE
+	@echo Creating $(TARGET_NAME)
+	nmake $(BUILD_TYPE)
+	copy $(BUILD_TYPE)\\$(TARGET_NAME)$(EXE_EXT) .
+
+FORCE:
+
+$(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) $OMMakefileName
+	@echo Building library $@
+	$(LIB_CMD) $(LIB_FLAGS) /out:$(TARGET_NAME)$(LIB_EXT) $(OBJS) $(ADDITIONAL_OBJS) $(LIBS)
+
+clean:
+	@echo Cleanup
+	$OMCleanOBJS
+	if exist $OMFileObjPath erase $OMFileObjPath
+	if exist *$(OBJ_EXT) erase *$(OBJ_EXT)
+	if exist $(TARGET_NAME).pdb erase $(TARGET_NAME).pdb
+	if exist $(TARGET_NAME)$(LIB_EXT) erase $(TARGET_NAME)$(LIB_EXT)
+	if exist $(TARGET_NAME).ilk erase $(TARGET_NAME).ilk
+	if exist $(TARGET_NAME)$(EXE_EXT) erase $(TARGET_NAME)$(EXE_EXT)
+	$(CLEAN_OBJ_DIR)
+	$OMCleanDdsIdlFiles
+";
+										- _Type = MultiLine;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Win";
+			- Dependencies = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IDependency 
+					- _id = GUID 48034d6f-53ae-4b2e-a16c-fa0e51c0a824;
+					- _myState = 2048;
+					- _name = "Sender";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Sender";
+						- _id = GUID 018ef8de-dda5-4b7c-85a6-2a5600f91a06;
+					}
+				}
+				{ IDependency 
+					- _id = GUID 38b4c4f8-99e0-4f1d-93d3-4a309329539e;
+					- _myState = 2048;
+					- _name = "Receiver";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "PredefinedTypes.sbs";
+							- _subsystem = "PredefinedTypes";
+							- _class = "";
+							- _name = "Usage";
+							- _id = GUID 42aa4325-6112-4e88-87ce-66008878f1db;
+						}
+					}
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Default.sbs";
+						- _subsystem = "Default";
+						- _class = "";
+						- _name = "Receiver";
+						- _id = GUID cd9ee915-8146-4654-b61e-a7c005dd76eb;
+					}
+				}
+			}
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+					- _subsystem = "QTProfile";
+					- _class = "";
+					- _name = "QTConfiguration";
+					- _id = GUID d86fae31-fb2a-4924-96bf-28542e8d12aa;
+				}
+			}
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID dfc8d41c-a324-4fff-bca9-2f4d44afe4c3;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "c:\\work\\qt\\SignalSlotExample\\SSExample\\DefaultConfig\\SSExample.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 7c61640d-d136-4959-b5df-079d0f8c4ecc;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "c:\\work\\qt\\SignalSlotExample\\SSExample\\DefaultConfig\\MainSSExample";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "Sender s;
+Receiver r;
+QObject::connect(&s, SIGNAL(sendValue(int)), &r, SLOT(receiveValue(int)));
+
+for(int i=0; i<10; i++) s.sendValue(i+1);";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 58eab91b-2bde-4db7-b18f-492799f03875;
+				- _myState = 8192;
+				- _name = "Win";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 6.15.2012::17:42:31;
+			- strongCGTime = 6.15.2012::17:42:31;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID e4ff2807-c0e1-4b05-9226-dad0767721c6;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\QTProfile\\QTProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "QTProfile";
+			- _id = GUID c4c27870-cdd6-44da-98b6-7e0021c0e336;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 6.15.2012::17:42:31;
+	- strongCGTime = 6.15.2012::17:32:43;
+}
+

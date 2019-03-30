@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaultprofile:Asset xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:defaultprofile="http:///defaultprofile22.ecore" name="QTProfile for Rhapsody"
+    id="{6169DA7E-0285-5665-FBEC-5804E9EF024F}" date="2013-07-03" state="As is" version="0.4.1.8" shortDescription="Rhapsody profile for Qt-compatible code generation with examples">
+  <classification>
+    <descriptorGroup name="AssetType">
+      <nodeDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#codesoftwarecomponents10"/>
+    </descriptorGroup>
+    <descriptorGroup name="CustomAttributes">
+      <nodeDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#yes1"/>
+      <nodeDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#yes"/>
+      <nodeDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#anothirdpartypatentsnoopensourceallmaterialbyibm"/>
+      <freeFormValue value="Rhapsody profile for Qt-compatible code generation with examples">
+        <freeFormDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#abstract"/>
+      </freeFormValue>
+      <freeFormValue value="Giulio Santoli">
+        <freeFormDescriptor href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#authors"/>
+      </freeFormValue>
+      <classificationSchema href="https://w3-03.ibm.com/tools/cm/iram/classif/assetTypesSchema.xmi#/"/>
+    </descriptorGroup>
+    <descriptorGroup name="StandardInfo">
+      <freeFormValue value="20" freeFormDescriptor="//@classification/@descriptorGroup.2/@freeFormDescriptor.0"/>
+      <freeFormDescriptor name="revisionCount"/>
+    </descriptorGroup>
+  </classification>
+  <solution>
+    <artifact name=".com.ibm.ram.data" type="folder">
+      <artifact name=".thumbnails" type="folder">
+        <artifact name="QTProfile v0.3.1" type="folder"/>
+        <artifact name="QTProfile v0.4.1.3" type="folder"/>
+      </artifact>
+    </artifact>
+    <artifact name="QTProfile v0.4.1.8.zip" type="multipart/x-zip">
+      <reference value="QTProfile v0.4.1.8.zip"/>
+    </artifact>
+    <artifact name="QTSimplifilerSource v0.4.1.8.zip" type="multipart/x-zip">
+      <reference value="QTSimplifilerSource v0.4.1.8.zip"/>
+    </artifact>
+  </solution>
+  <description value="&lt;qtslot>&lt;qtslot>This asset contains the following items: &lt;br>&lt;/qtslot>&lt;/qtslot>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>a Rhapsody profile for Qt-compatible code generation;&lt;/qtslot>&lt;/qtslot>          &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>a PPT presentation that explains its usage and describes three examples (HelloWorld, Synchronous Simple Qt Countdown and Asynchronous Simple Qt Countdown);&lt;/qtslot>&lt;/qtslot>         &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>some complete examples.&lt;/qtslot>&lt;/qtslot>        &lt;/li>&lt;/ul>&lt;qtslot>&lt;qtslot>The objective of this profile is to build the full application in a model-driven approach, automatically creating the Qt project file and generating the code.&lt;br>&lt;br>One of the biggest challenges it addresses is the possibility to have classes that can be both QObjects (with signal and slots) and OMReactive (with a Rhapsody state machine).&lt;br>&lt;/qtslot>&lt;/qtslot>&lt;p style=&quot;margin: 0px;&quot;>&lt;qtslot>&lt;qtslot>You can apply the &lt;qtslot>&lt;span style=&quot;font-style: italic;&quot;>QTSlot&lt;/span>&lt;qtslot>&lt;span style=&quot;font-style: italic;&quot;> &lt;/span>stereotype to Receptions, Triggered Operations or Primitive Operations.&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;/p>&lt;p style=&quot;margin: 0px;&quot;>&lt;br>&lt;qtslot>&lt;/qtslot>&lt;/p>&lt;qtslot>&lt;qtslot>When you use Rhapsody Receptions as slots, the Profile will automatically create a new slot operation by appending the &quot;Slot&quot; suffix to Reception's name and, as implementation body,&lt;br>a line of code that generates the Rhapsody Event.&lt;br>This allows you to connect other Signals to this Slot and let the Qt thread create asynchronous events for the Rhapsody Event Loop (of course this is not mandatory, &lt;br>as you can do it by your own, without using the &lt;span style=&quot;font-style: italic;&quot;>QTSlot&lt;/span>&lt;qtslot>&lt;span style=&quot;font-style: italic;&quot;> &lt;/span>stereotype for Receptions).&lt;br>&lt;br>&lt;span style=&quot;font-weight: bold;&quot;>What's New is this Release&lt;/span>&lt;br>- Better usability.&lt;br>- Almost 100% of GUI and CORE classes of the Qt framework are available in the profile.&lt;br>- You can import .ui files in the model instead of putting them into the gui directory.&lt;br>- You can generate the Ui class from the imported .ui file and create relationships to it.&lt;br>&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;p style=&quot;margin: 0px;&quot;>&lt;qtslot>&lt;qtslot>&lt;qtslot>- Roundtripping is supported for Qt classes too.&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;/p>&lt;p style=&quot;margin: 0px;&quot;>&lt;qtslot>&lt;qtslot>&lt;qtslot>- Support for Rhaposdy 8.0.3&lt;br>- The Hello World Example for MinGW&lt;br>- Two &quot;Sanity Checks&quot; to test your environment configuration before using Rhapsody, for both VS2010 and MinGW&lt;br>&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;/p>&lt;ul>&lt;/ul>&lt;p style=&quot;margin: 0px;&quot;>&lt;/p>&lt;qtslot>&lt;qtslot>&lt;qtslot>&lt;br>&lt;span style=&quot;font-weight: bold;&quot;>Known Limitations&lt;/span>&lt;br>This is a work-in-progress and there are some limitations such as:&lt;br>&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>&lt;p style=&quot;margin: 0px;&quot;>&lt;qtslot>&lt;ul>&lt;li>&lt;p style=&quot;margin: 0px;&quot;>&lt;qtslot>&lt;qtslot>It supports Qt 4.x (starting from 4.7.3) on Windows (VS2008, VS2010 and MinGW) and Linux, with and without Animation (no Tracing).&lt;/qtslot>&lt;/qtslot>&lt;/p>&lt;/li>&lt;li>Qt 5.x is not supported yet.&lt;br>&lt;/li>&lt;/ul>&lt;/qtslot>&lt;/p>&lt;qtslot>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>No support for Qt message catalgos and resources yet.&lt;/qtslot>&lt;/qtslot>      &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>The Qt framework is not complete and some classes or operations might be missing.&lt;/qtslot>&lt;/qtslot>     &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>All the slots are public, regardless their visibility in the model.&lt;/qtslot>&lt;/qtslot>    &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>More complex examples to be provided.&lt;/qtslot>&lt;/qtslot>   &lt;/li>&lt;/ul>&lt;ul>&lt;li>&lt;qtslot>&lt;qtslot>Only Rhapsody 7.6.x and Rhapsody 8.x are supported. Older versions are no longer supported.&lt;/qtslot>&lt;/qtslot>  &lt;/li>&lt;/ul>&lt;qtslot>&lt;qtslot>&lt;br>Any feedback is welcome.&lt;br>&lt;br>&lt;br>&lt;/qtslot>&lt;/qtslot>&lt;/qtslot>"/>
+</defaultprofile:Asset>
